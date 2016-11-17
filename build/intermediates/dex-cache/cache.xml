@@ -3,21 +3,39 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Tobi\Documents\GitHub\DynLicht\importedVersion\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="C:\Users\Tobi\Documents\GitHub\DynLicht\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="1403fa90e573a4215cb8878f7a765884fdf2b204">
-        <dex dex="C:\Users\Tobi\Documents\GitHub\DynLicht\importedVersion\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_2d1ec09f26ba0b7f37ce32fb7bddd13b8a254927\classes.dex" />
+        sha1="1b4371be930d847e8daa40300091b9f50141246a">
+        <dex dex="C:\Users\Tobi\Documents\GitHub\DynLicht\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_e4802336b79c15fe0119f8c7d7a49b248f91f84c\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Tobi\Documents\GitHub\DynLicht\importedVersion\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="C:\Users\Tobi\Documents\GitHub\DynLicht\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\18.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="842277dd7b8340b81fdc8a6931465d0729811ce8">
-        <dex dex="C:\Users\Tobi\Documents\GitHub\DynLicht\importedVersion\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_53d560b78567c1683878a94de320481675f454b4\classes.dex" />
+        sha1="8f11f56e350eacabf2273f646d981356eea0ed77">
+        <dex dex="C:\Users\Tobi\Documents\GitHub\DynLicht\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-18.0.0_6226e68167b51bc3817f1f8fde056008665e4c1e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Tobi\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="C:\Users\Tobi\Documents\GitHub\DynLicht\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-v4-18.0.0_df157eb7db8f3b4db3238494aca5977a510f4b7a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Tobi\Documents\GitHub\DynLicht\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="bca923176c2f4c8994e5f3b33924e1d977d9d017">
+        <dex dex="C:\Users\Tobi\Documents\GitHub\DynLicht\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_8abb0e2784a5d9783fe63f64e1cd65e62c4728e5\classes.dex" />
     </item>
 
 </items>

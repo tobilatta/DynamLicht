@@ -4,9 +4,9 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.0"
-    timestamp="928857021437719"
-    token="1100317126517303611"
-    verifier="FULL_BUILD_REQUESTED" >
+    timestamp="606604623694641"
+    token="-3198565150594264910"
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
@@ -21,16 +21,15 @@
         name="verifier"
         duration="0" />
 
-    <artifact
-        location="C:\Users\Tobi\Documents\GitHub\DynLicht\importedVersion\app\build\outputs\apk\app-debug.apk"
-        type="MAIN" />
-
     <build
-        timestamp="928857021437719"
-        verifier="FULL_BUILD_REQUESTED" >
+        timestamp="606536558032503"
+        verifier="MANIFEST_FILE_CHANGE" >
         <artifact
-            location="C:\Users\Tobi\Documents\GitHub\DynLicht\importedVersion\app\build\outputs\apk\app-debug.apk"
+            location="C:\Users\Tobi\Documents\GitHub\DynLicht\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
+    <build
+        timestamp="606604623694641"
+        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

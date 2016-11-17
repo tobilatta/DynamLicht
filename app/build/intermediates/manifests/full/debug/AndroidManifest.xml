@@ -64,5 +64,10 @@ limitations under the License.
 
 </manifest><!--
 ToDo für Peddy und Tobi
-        -MainActivity erstellen, au
+        -Herausfinden wie die benötigten Bluetooth-Prozesse als Services im Hintergrund weiterlaufen
+        -eventuell sind sie das schon und es muss nur korrekt drauf zugegriffen werden-> Zugriff aus
+         aus der DeviceService-Activity abschauen und übertragen in setupActivity
+
+        -jamod-Integration
+        -mainmenu-Activity erstellen
 -->

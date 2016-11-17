@@ -52,7 +52,6 @@ limitations under the License.
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".DeviceScanActivity" />
         <activity android:name=".DeviceServicesActivity" />
         <activity android:name=".demo.DemoHeartRateSensorActivity" />
@@ -60,11 +59,15 @@ limitations under the License.
         <service
             android:name=".BleService"
             android:enabled="true" />
-
-
     </application>
 
 </manifest><!--
 ToDo für Peddy und Tobi
-        -MainActivity erstellen, au
+        -Herausfinden wie die benötigten Bluetooth-Prozesse als Services im Hintergrund weiterlaufen
+        -eventuell sind sie das schon und es muss nur korrekt drauf zugegriffen werden-> Zugriff aus
+         aus der DeviceService-Activity abschauen und übertragen in setupActivity
+
+        -jamod-Integration
+        -mainmenu-Activity erstellen
+        -Backbutton fixen
 -->

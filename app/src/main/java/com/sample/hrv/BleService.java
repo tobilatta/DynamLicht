@@ -125,7 +125,7 @@ public class BleService extends Service {
             broadcastUpdate(ACTION_DATA_AVAILABLE, characteristic);
         }
     };
-
+//Broadcast-Variablen auslesen nachgucken!!
     private void broadcastUpdate(final String action) {
         final Intent intent = new Intent(action);
         sendBroadcast(intent);

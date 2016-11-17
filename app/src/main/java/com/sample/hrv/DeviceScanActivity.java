@@ -52,6 +52,7 @@ public class DeviceScanActivity extends ListActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getActionBar().setTitle(R.string.title_devices);
+        getActionBar().setDisplayHomeAsUpEnabled (true);
 
         // Use this check to determine whether BLE is supported on the device.  Then you can
         // selectively disable BLE-related features.
@@ -164,6 +165,7 @@ public class DeviceScanActivity extends ListActivity {
         intent.putExtra(DeviceServicesActivity.EXTRAS_DEVICE_ADDRESS, device.getAddress());
         startActivity(intent);
     }
+
 
     private void init() {
         if (leDeviceListAdapter == null) {
