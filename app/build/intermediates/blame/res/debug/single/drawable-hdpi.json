@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
         "merged": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\importedVersion\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
         "source": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\importedVersion\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
     }

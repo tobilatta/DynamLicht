@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
     <string name="action_demo">Demo</string>
     <string name="app_name">DynLiCo</string>
     <string name="ble_not_supported">Bluetooth LE is not supported</string>
@@ -11,8 +13,10 @@
     <string name="label_heartrate">Heartrate:</string>
     <string name="label_services">Services</string>
     <string name="label_state">State:</string>
+    <string name="menu_ble">Bluetooth Setup</string>
     <string name="menu_connect">Connect</string>
     <string name="menu_disconnect">Disconnect</string>
+    <string name="menu_modbus">Modbus Setup</string>
     <string name="menu_scan">Scan</string>
     <string name="menu_stop">Stop</string>
     <string name="no_data">No data</string>
