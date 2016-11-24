@@ -59,7 +59,7 @@ public class DeviceServicesActivity extends Activity {
 
     public static final String EXTRAS_DEVICE_NAME = "DEVICE_NAME";
     public static final String EXTRAS_DEVICE_ADDRESS = "DEVICE_ADDRESS";
-    public static String HEARTRATEV = "no value!!!";
+    //public static String HEARTRATEV = "no value!!!";
 
     private TextView connectionState;
     private TextView dataField;
@@ -125,7 +125,7 @@ public class DeviceServicesActivity extends Activity {
 				enableHeartRateSensor();
             } else if (BleService.ACTION_DATA_AVAILABLE.equals(action)) {
 				displayData(intent.getStringExtra(BleService.EXTRA_SERVICE_UUID), intent.getStringExtra(BleService.EXTRA_TEXT));
-                HEARTRATEV = intent.getStringExtra(BleService.EXTRA_TEXT);
+                //HEARTRATEV = intent.getStringExtra(BleService.EXTRA_TEXT);
 
             }
         }
@@ -260,6 +260,7 @@ public class DeviceServicesActivity extends Activity {
 
         final Intent gattServiceIntent = new Intent(this, BleService.class);
         bindService(gattServiceIntent, serviceConnection, BIND_AUTO_CREATE);
+
     }
 
     @Override
@@ -327,7 +328,7 @@ public class DeviceServicesActivity extends Activity {
         if (data != null) {
             if (uuid.equals(BleHeartRateSensor.getServiceUUIDString())) {
                 heartRateField.setText(data);
-                HEARTRATEV = data;
+                //HEARTRATEV = data;
             } else {
                 dataField.setText(data);
             }
