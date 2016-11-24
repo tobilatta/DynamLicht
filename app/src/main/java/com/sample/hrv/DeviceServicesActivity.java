@@ -323,15 +323,15 @@ public class DeviceServicesActivity extends Activity {
         });
     }
 
-   public void displayData(String uuid, String data) {
-		if (data != null) {
-			if (uuid.equals(BleHeartRateSensor.getServiceUUIDString())) {
-				heartRateField.setText(data);
+    public void displayData(String uuid, String data) {
+        if (data != null) {
+            if (uuid.equals(BleHeartRateSensor.getServiceUUIDString())) {
+                heartRateField.setText(data);
                 HEARTRATEV = data;
-			} else {
-				dataField.setText(data);
-			}
-		}
+            } else {
+                dataField.setText(data);
+            }
+        }
     }
 
 	private boolean enableHeartRateSensor() {

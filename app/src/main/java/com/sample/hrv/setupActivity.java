@@ -1,6 +1,8 @@
 package com.sample.hrv;
 
         import android.app.Activity;
+        import android.content.BroadcastReceiver;
+        import android.content.Context;
         import android.content.Intent;
         import android.os.Bundle;
         import android.support.v7.app.ActionBarActivity;
@@ -15,6 +17,8 @@ package com.sample.hrv;
         import static android.R.attr.data;
 
         import static com.sample.hrv.BleService.EXTRA_DATA;
+//        import static com.sample.hrv.DeviceServicesActivity.HEARTRATEV;
+        import static com.sample.hrv.DeviceServicesActivity.HEARTRATEV;
         import static com.sample.hrv.R.id.heartrate_value;
         import static com.sample.hrv.R.id.uuid;
         import static com.sample.hrv.R.string.no_data;
@@ -23,6 +27,7 @@ package com.sample.hrv;
 public class setupActivity extends /*ActionBar*/Activity {
 
     public TextView heartRateField;
+    public TextView dataField;
 
 
     @Override
@@ -35,6 +40,8 @@ public class setupActivity extends /*ActionBar*/Activity {
         super.onCreate(savedInstanceState);
        // getSupportActionBar().setTitle(R.string.title_devices);
         setContentView(R.layout.activity_setup);
+
+        dataField = (TextView) findViewById(R.id.data_value);
 
 
         //displayData(intent.getStringExtra(BleService.EXTRA_TEXT));
@@ -79,19 +86,46 @@ public class setupActivity extends /*ActionBar*/Activity {
 
         heartRateField = (TextView) findViewById(R.id.heartrate_value);
 
-        heartRateField.setText(com.sample.hrv.DeviceServicesActivity.HEARTRATEV);
 
     }
 
-    public void displayData(String data) {
+    private final BroadcastReceiver gattUpdateReceiver = new BroadcastReceiver() {
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            final String action = intent.getAction();
+/*            if (BleService.ACTION_GATT_CONNECTED.equals(action)) {
+                isConnected = true;
+                updateConnectionState(R.string.connected);
+                invalidateOptionsMenu();
+            } else if (BleService.ACTION_GATT_DISCONNECTED.equals(action)) {
+                isConnected = false;
+                updateConnectionState(R.string.disconnected);
+                invalidateOptionsMenu();
+                clearUI();
+            } else if (BleService.ACTION_GATT_SERVICES_DISCOVERED.equals(action)) {
+                // Show all the supported services and characteristics on the user interface.
+                displayGattServices(bleService.getSupportedGattServices());
+                enableHeartRateSensor();
+            } else*/
+            if (BleService.ACTION_DATA_AVAILABLE.equals(action)) {
+                displayData(intent.getStringExtra(BleService.EXTRA_SERVICE_UUID), intent.getStringExtra(BleService.EXTRA_TEXT));
+//                HEARTRATEV = intent.getStringExtra(BleService.EXTRA_TEXT);
+
+            }
+        }
+    };
+
+    public void displayData(String uuid, String data) {
         if (data != null) {
-
+            if (uuid.equals(BleHeartRateSensor.getServiceUUIDString())) {
                 heartRateField.setText(data);
-
-        }
-        else {
-                heartRateField.setText(no_data);
+//                HEARTRATEV = data;
+            } else {
+                dataField.setText(data);
+            }
         }
     }
+
+
 }
 
