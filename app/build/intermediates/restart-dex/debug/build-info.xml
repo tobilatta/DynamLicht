@@ -4,47 +4,40 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.0"
-    timestamp="159459336771281"
+    timestamp="165667596758715"
     token="-3198565150594264910"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="2795" />
+        duration="1144" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="43" />
     <task
         name="verifier"
-        duration="0" />
+        duration="8" />
 
     <artifact
         location="C:\Users\Tobi\Documents\GitHub\DynLicht\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
         type="DEX" />
 
     <build
-        timestamp="151242168784441"
+        timestamp="164459765061517"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\Tobi\Documents\GitHub\DynLicht\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_e4802336b79c15fe0119f8c7d7a49b248f91f84c\classes.dex"
-            type="DEX" />
+            location="C:\Users\Tobi\Documents\GitHub\DynLicht\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
     </build>
     <build
-        timestamp="159459336771281"
+        timestamp="165667596758715"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\Tobi\Documents\GitHub\DynLicht\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
             type="DEX" />
-    </build>
-    <build
-        timestamp="606536558032503"
-        verifier="MANIFEST_FILE_CHANGE" >
-        <artifact
-            location="C:\Users\Tobi\Documents\GitHub\DynLicht\app\build\outputs\apk\app-debug.apk"
-            type="MAIN" />
     </build>
 
 </instant-run>
