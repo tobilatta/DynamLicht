@@ -59,6 +59,8 @@ limitations under the License.
         <service
             android:name=".BleService"
             android:enabled="true" />
+
+        <activity android:name=".setupModbus"></activity>
     </application>
 
 </manifest><!--

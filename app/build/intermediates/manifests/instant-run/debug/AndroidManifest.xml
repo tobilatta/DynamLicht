@@ -61,6 +61,8 @@ limitations under the License.
         <service
             android:name="com.sample.hrv.BleService"
             android:enabled="true" />
+
+        <activity android:name="com.sample.hrv.setupModbus" />
     </application>
 
 </manifest><!--

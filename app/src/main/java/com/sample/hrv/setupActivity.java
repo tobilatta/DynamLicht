@@ -84,6 +84,17 @@ public class setupActivity extends /*ActionBar*/Activity {
             }
         } );
 
+        //Opening the modbussetup-Activity when clicking on the Modbus-Button
+        final Button modbussetup = (Button) findViewById(R.id.but_menu_modbus);
+        modbussetup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                final Intent intent = new Intent(setupActivity.this, setupModbus.class);
+                startActivity(intent);
+            }
+        }
+        );
+
 
     }
 
