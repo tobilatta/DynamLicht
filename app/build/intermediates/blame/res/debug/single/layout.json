@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_search_view.xml"
-    },
-    {
         "merged": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
         "source": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_search_view.xml"
     },
     {
         "merged": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
@@ -66,6 +66,10 @@
     {
         "merged": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_service.xml",
         "source": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\src\\main\\res\\layout\\listitem_service.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setup_modbus.xml",
+        "source": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\src\\main\\res\\layout\\activity_setup_modbus.xml"
     },
     {
         "merged": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
