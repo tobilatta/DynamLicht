@@ -19,4 +19,5 @@ android {
 }
 dependencies {
     compile 'com.android.support:appcompat-v7:18.+'
+    compile 'org.robolectric:android-libcore:4.3_r2.robolectric-0'
 }

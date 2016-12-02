@@ -34,6 +34,9 @@ limitations under the License.
 
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
     <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
@@ -67,9 +70,9 @@ limitations under the License.
 
 </manifest><!--
 ToDo für Peddy und Tobi
-        -Herausfinden wie die benötigten Bluetooth-Prozesse als Services im Hintergrund weiterlaufen
-        -eventuell sind sie das schon und es muss nur korrekt drauf zugegriffen werden-> Zugriff aus
-         aus der DeviceService-Activity abschauen und übertragen in setupActivity
+        -Mit Modbus-Anlage und Dennis testen, ob die Port-Freigabe (bzw. der Error aus dem logcat immernoch auftritt)
+        -Service erstellen, der im Hintergrund Werte an die Anlage sendet
+        
 
         -jamod-Integration
         -mainmenu-Activity erstellen

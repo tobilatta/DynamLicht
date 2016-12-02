@@ -1,4 +1,4 @@
-#Wed Nov 30 11:34:01 CET 2016
+#Fri Dec 02 11:40:35 CET 2016
 base.0=C\:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_e4802336b79c15fe0119f8c7d7a49b248f91f84c
 renamed.1=classes.dex
 renamed.0=classes2.dex
