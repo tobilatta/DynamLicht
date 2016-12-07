@@ -7,7 +7,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="9fb308bcdc0d06be2fe0c6cc71866eb5f35bf2be">
+        sha1="47a45e934eb60ca516525aee4d1886fba645db61">
         <dex dex="C:\Users\Tobi\Documents\GitHub\DynLicht\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_e4802336b79c15fe0119f8c7d7a49b248f91f84c\classes.dex" />
     </item>
     <item
@@ -34,7 +34,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="940d2808fa11da5b18bb8d916a4ff5166b010911">
+        sha1="e7cce72f8e791b171eaa4d2391f703ba109ae445">
         <dex dex="C:\Users\Tobi\Documents\GitHub\DynLicht\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_8abb0e2784a5d9783fe63f64e1cd65e62c4728e5\classes.dex" />
     </item>
 

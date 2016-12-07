@@ -4,33 +4,68 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.0"
-    timestamp="93047428657514"
+    timestamp="538756620511564"
     token="-3198565150594264910"
-    verifier="MANIFEST_FILE_CHANGE" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="475" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="898" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="43" />
     <task
         name="verifier"
-        duration="0" />
+        duration="6" />
 
     <artifact
-        location="C:\Users\Tobi\Documents\GitHub\DynLicht\app\build\outputs\apk\app-debug.apk"
-        type="MAIN" />
+        location="C:\Users\Tobi\Documents\GitHub\DynLicht\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
 
     <build
-        timestamp="242404311457455"
+        timestamp="536625039243040"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\Users\Tobi\Documents\GitHub\DynLicht\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="537896397264401"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="C:\Users\Tobi\Documents\GitHub\DynLicht\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
+            location="C:\Users\Tobi\Documents\GitHub\DynLicht\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
             type="DEX" />
+    </build>
+    <build
+        timestamp="537986382898036"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\Tobi\Documents\GitHub\DynLicht\app\build\intermediates\builds\debug\537986382898036\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="538138449597496"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\Tobi\Documents\GitHub\DynLicht\app\build\intermediates\builds\debug\538138449597496\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="538592720686113"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\Tobi\Documents\GitHub\DynLicht\app\build\intermediates\builds\debug\538592720686113\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="538756620511564"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\Tobi\Documents\GitHub\DynLicht\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

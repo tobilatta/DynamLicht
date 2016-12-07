@@ -15,6 +15,7 @@ import net.wimpi.modbus.ModbusCoupler;
 
 public class setupModbus extends Activity {
 
+
     @Override
     //Mainentry
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +26,8 @@ public class setupModbus extends Activity {
         ModbusTCPListener listener = null ;
         SimpleProcessImage spi = null;
         int port = Modbus.DEFAULT_PORT;
+        byte inRegLowByte = 1;
+        byte inRegHighByte = 0;
 
         try {
 
@@ -32,21 +35,20 @@ public class setupModbus extends Activity {
             //prepare process image
             spi = new SimpleProcessImage();
            /* spi.addDigitalOut(new SimpleDigitalOut(true));
-            spi.addDigitalOut(new SimpleDigitalOut(false));*/
-            spi.addDigitalIn(new SimpleDigitalIn(false));
-            spi.addDigitalIn(new SimpleDigitalIn(true));
-            spi.addDigitalIn(new SimpleDigitalIn(false));
-            spi.addDigitalIn(new SimpleDigitalIn(true));
-            spi.addRegister(new SimpleRegister(251));
-            spi.addInputRegister(new SimpleInputRegister(45));
+
+*/
+            spi.addRegister(new SimpleRegister(0));
+            spi.addRegister(new SimpleRegister(1));
+            spi.addRegister(new SimpleRegister(0));
+           // spi.addInputRegister(new SimpleInputRegister(45));
 
             //set image on coupler
             ModbusCoupler.getReference().setProcessImage(spi);
             ModbusCoupler.getReference().setMaster(false);
-            ModbusCoupler.getReference().setUnitID(15);
+            ModbusCoupler.getReference().setUnitID(0);
 
             //3. create a listener with 3 threads in pool
-            if (Modbus.debug) System.out.println("Listening...");
+            /*if (Modbus.debug) */System.out.println("Listening...");
             listener = new ModbusTCPListener(3);
             listener.setPort(port);
             listener.start();

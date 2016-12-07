@@ -37,10 +37,9 @@ limitations under the License.
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-
-    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:name="com.android.tools.fd.runtime.BootstrapApplication"
@@ -71,8 +70,14 @@ limitations under the License.
 </manifest><!--
 ToDo für Peddy und Tobi
         -Mit Modbus-Anlage und Dennis testen, ob die Port-Freigabe (bzw. der Error aus dem logcat immernoch auftritt)
+            ->Fehler ist java.net.BindException: bind failed: EADDRINUSE (Address already in use)
+            ->Fehler war java.net.BindException: bind failed: EADDRNAVAIL (Address not available)
+
+            ->Kann damit zusammenhängen, dass das HAW.1X keine Freigabe zulässt
+
+
         -Service erstellen, der im Hintergrund Werte an die Anlage sendet
-        
+
 
         -jamod-Integration
         -mainmenu-Activity erstellen

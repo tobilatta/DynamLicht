@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Tobi\Documents\GitHub\DynLicht\app\src\main\AndroidManifest.xml:16:1-69:12
+ADDED from C:\Users\Tobi\Documents\GitHub\DynLicht\app\src\main\AndroidManifest.xml:16:1-70:12
 	package
 		ADDED from C:\Users\Tobi\Documents\GitHub\DynLicht\app\src\main\AndroidManifest.xml:17:5-29
 		INJECTED from C:\Users\Tobi\Documents\GitHub\DynLicht\app\src\main\AndroidManifest.xml
@@ -52,20 +52,20 @@ uses-permission#android.permission.ACCESS_WIFI_STATE
 ADDED from C:\Users\Tobi\Documents\GitHub\DynLicht\app\src\main\AndroidManifest.xml:38:5-76
 	android:name
 		ADDED from C:\Users\Tobi\Documents\GitHub\DynLicht\app\src\main\AndroidManifest.xml:38:22-73
-android:uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\Tobi\Documents\GitHub\DynLicht\app\src\main\AndroidManifest.xml:40:5-89
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Tobi\Documents\GitHub\DynLicht\app\src\main\AndroidManifest.xml:40:5-81
 	android:name
-		ADDED from C:\Users\Tobi\Documents\GitHub\DynLicht\app\src\main\AndroidManifest.xml:40:30-86
-android:uses-permission#android.permission.READ_PHONE_STATE
-ADDED from C:\Users\Tobi\Documents\GitHub\DynLicht\app\src\main\AndroidManifest.xml:41:5-83
+		ADDED from C:\Users\Tobi\Documents\GitHub\DynLicht\app\src\main\AndroidManifest.xml:40:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\Tobi\Documents\GitHub\DynLicht\app\src\main\AndroidManifest.xml:41:5-75
 	android:name
-		ADDED from C:\Users\Tobi\Documents\GitHub\DynLicht\app\src\main\AndroidManifest.xml:41:30-80
-android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\Tobi\Documents\GitHub\DynLicht\app\src\main\AndroidManifest.xml:42:5-88
+		ADDED from C:\Users\Tobi\Documents\GitHub\DynLicht\app\src\main\AndroidManifest.xml:41:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Tobi\Documents\GitHub\DynLicht\app\src\main\AndroidManifest.xml:42:5-80
 	android:name
-		ADDED from C:\Users\Tobi\Documents\GitHub\DynLicht\app\src\main\AndroidManifest.xml:42:30-85
+		ADDED from C:\Users\Tobi\Documents\GitHub\DynLicht\app\src\main\AndroidManifest.xml:42:22-77
 application
-ADDED from C:\Users\Tobi\Documents\GitHub\DynLicht\app\src\main\AndroidManifest.xml:44:5-67:19
+ADDED from C:\Users\Tobi\Documents\GitHub\DynLicht\app\src\main\AndroidManifest.xml:44:5-68:19
 MERGED from [com.android.support:appcompat-v7:18.0.0] C:\Users\Tobi\Documents\GitHub\DynLicht\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\18.0.0\AndroidManifest.xml:19:5-20
 	android:label
 		ADDED from C:\Users\Tobi\Documents\GitHub\DynLicht\app\src\main\AndroidManifest.xml:47:9-41
@@ -110,6 +110,6 @@ ADDED from C:\Users\Tobi\Documents\GitHub\DynLicht\app\src\main\AndroidManifest.
 	android:name
 		ADDED from C:\Users\Tobi\Documents\GitHub\DynLicht\app\src\main\AndroidManifest.xml:63:13-39
 activity#com.sample.hrv.setupModbus
-ADDED from C:\Users\Tobi\Documents\GitHub\DynLicht\app\src\main\AndroidManifest.xml:66:9-58
+ADDED from C:\Users\Tobi\Documents\GitHub\DynLicht\app\src\main\AndroidManifest.xml:66:9-67:52
 	android:name
-		ADDED from C:\Users\Tobi\Documents\GitHub\DynLicht\app\src\main\AndroidManifest.xml:66:19-46
+		ADDED from C:\Users\Tobi\Documents\GitHub\DynLicht\app\src\main\AndroidManifest.xml:67:13-40

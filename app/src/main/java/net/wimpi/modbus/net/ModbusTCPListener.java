@@ -73,7 +73,7 @@ public class ModbusTCPListener
   public ModbusTCPListener(int poolsize) {
     m_ThreadPool = new ThreadPool(poolsize);
     try {
-      m_Address = InetAddress.getByName("141.22.79.179");
+      m_Address = InetAddress.getByName("192.168.1.125");
       /*m_Address = InetAddress.getLocalHost()*/;
     } catch (UnknownHostException ex) {
 
@@ -146,6 +146,7 @@ public class ModbusTCPListener
           program logins can probably be prevented.
       */
       m_ServerSocket = new ServerSocket(m_Port, m_FloodProtection, m_Address);
+      m_ServerSocket.setReuseAddress(true);
       if(Modbus.debug) System.out.println("Listenening to " + m_ServerSocket.toString() + "(Port " + m_Port + ")");
 
       //Infinite loop, taking care of resources in case of a lot of parallel logins
