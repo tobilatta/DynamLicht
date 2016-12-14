@@ -1793,8 +1793,198 @@
                     "startLine": 150,
                     "startColumn": 4,
                     "startOffset": 11571,
+                    "endColumn": 36,
+                    "endOffset": 11603
+                },
+                "from": {
+                    "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\src\\main\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 256,
+                        "endColumn": 36,
+                        "endOffset": 288
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 151,
+                    "startColumn": 4,
+                    "startOffset": 11608,
+                    "endColumn": 45,
+                    "endOffset": 11649
+                },
+                "from": {
+                    "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\src\\main\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 433,
+                        "endColumn": 45,
+                        "endOffset": 474
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 152,
+                    "startColumn": 4,
+                    "startOffset": 11654,
+                    "endColumn": 45,
+                    "endOffset": 11695
+                },
+                "from": {
+                    "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\src\\main\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 386,
+                        "endColumn": 45,
+                        "endOffset": 427
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 153,
+                    "startColumn": 4,
+                    "startOffset": 11700,
+                    "endColumn": 43,
+                    "endOffset": 11739
+                },
+                "from": {
+                    "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\src\\main\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 341,
+                        "endColumn": 43,
+                        "endOffset": 380
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 154,
+                    "startColumn": 4,
+                    "startOffset": 11744,
+                    "endColumn": 45,
+                    "endOffset": 11785
+                },
+                "from": {
+                    "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\src\\main\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 294,
+                        "endColumn": 45,
+                        "endOffset": 335
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 155,
+                    "startColumn": 4,
+                    "startOffset": 11790,
+                    "endColumn": 40,
+                    "endOffset": 11826
+                },
+                "from": {
+                    "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\src\\main\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 40,
+                        "endOffset": 93
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 156,
+                    "startColumn": 4,
+                    "startOffset": 11831,
+                    "endColumn": 40,
+                    "endOffset": 11867
+                },
+                "from": {
+                    "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\src\\main\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 99,
+                        "endColumn": 40,
+                        "endOffset": 135
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 157,
+                    "startColumn": 4,
+                    "startOffset": 11872,
+                    "endColumn": 37,
+                    "endOffset": 11905
+                },
+                "from": {
+                    "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\src\\main\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 217,
+                        "endColumn": 37,
+                        "endOffset": 250
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 158,
+                    "startColumn": 4,
+                    "startOffset": 11910,
+                    "endColumn": 35,
+                    "endOffset": 11941
+                },
+                "from": {
+                    "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\src\\main\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 180,
+                        "endColumn": 35,
+                        "endOffset": 211
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 159,
+                    "startColumn": 4,
+                    "startOffset": 11946,
+                    "endColumn": 37,
+                    "endOffset": 11979
+                },
+                "from": {
+                    "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\src\\main\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 141,
+                        "endColumn": 37,
+                        "endOffset": 174
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 160,
+                    "startColumn": 4,
+                    "startOffset": 11984,
                     "endColumn": 54,
-                    "endOffset": 11621
+                    "endOffset": 12034
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -1809,11 +1999,11 @@
             },
             {
                 "to": {
-                    "startLine": 151,
+                    "startLine": 161,
                     "startColumn": 4,
-                    "startOffset": 11626,
+                    "startOffset": 12039,
                     "endColumn": 73,
-                    "endOffset": 11695
+                    "endOffset": 12108
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -1828,11 +2018,11 @@
             },
             {
                 "to": {
-                    "startLine": 152,
+                    "startLine": 162,
                     "startColumn": 4,
-                    "startOffset": 11700,
+                    "startOffset": 12113,
                     "endColumn": 69,
-                    "endOffset": 11765
+                    "endOffset": 12178
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -1847,11 +2037,11 @@
             },
             {
                 "to": {
-                    "startLine": 153,
+                    "startLine": 163,
                     "startColumn": 4,
-                    "startOffset": 11770,
+                    "startOffset": 12183,
                     "endColumn": 77,
-                    "endOffset": 11843
+                    "endOffset": 12256
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -1866,11 +2056,11 @@
             },
             {
                 "to": {
-                    "startLine": 154,
+                    "startLine": 164,
                     "startColumn": 4,
-                    "startOffset": 11848,
+                    "startOffset": 12261,
                     "endColumn": 53,
-                    "endOffset": 11897
+                    "endOffset": 12310
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -1885,11 +2075,11 @@
             },
             {
                 "to": {
-                    "startLine": 155,
+                    "startLine": 165,
                     "startColumn": 4,
-                    "startOffset": 11902,
+                    "startOffset": 12315,
                     "endColumn": 69,
-                    "endOffset": 11967
+                    "endOffset": 12380
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -1904,11 +2094,11 @@
             },
             {
                 "to": {
-                    "startLine": 156,
+                    "startLine": 166,
                     "startColumn": 4,
-                    "startOffset": 11972,
+                    "startOffset": 12385,
                     "endColumn": 84,
-                    "endOffset": 12052
+                    "endOffset": 12465
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -1923,11 +2113,11 @@
             },
             {
                 "to": {
-                    "startLine": 157,
+                    "startLine": 167,
                     "startColumn": 4,
-                    "startOffset": 12057,
+                    "startOffset": 12470,
                     "endColumn": 72,
-                    "endOffset": 12125
+                    "endOffset": 12538
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -1942,11 +2132,11 @@
             },
             {
                 "to": {
-                    "startLine": 158,
+                    "startLine": 168,
                     "startColumn": 4,
-                    "startOffset": 12130,
+                    "startOffset": 12543,
                     "endColumn": 73,
-                    "endOffset": 12199
+                    "endOffset": 12612
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -1961,11 +2151,11 @@
             },
             {
                 "to": {
-                    "startLine": 159,
+                    "startLine": 169,
                     "startColumn": 4,
-                    "startOffset": 12204,
+                    "startOffset": 12617,
                     "endColumn": 68,
-                    "endOffset": 12268
+                    "endOffset": 12681
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -1980,11 +2170,11 @@
             },
             {
                 "to": {
-                    "startLine": 160,
+                    "startLine": 170,
                     "startColumn": 4,
-                    "startOffset": 12273,
+                    "startOffset": 12686,
                     "endColumn": 74,
-                    "endOffset": 12343
+                    "endOffset": 12756
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -1999,11 +2189,11 @@
             },
             {
                 "to": {
-                    "startLine": 161,
+                    "startLine": 171,
                     "startColumn": 4,
-                    "startOffset": 12348,
+                    "startOffset": 12761,
                     "endColumn": 73,
-                    "endOffset": 12417
+                    "endOffset": 12830
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -2018,11 +2208,11 @@
             },
             {
                 "to": {
-                    "startLine": 162,
+                    "startLine": 172,
                     "startColumn": 4,
-                    "startOffset": 12422,
+                    "startOffset": 12835,
                     "endColumn": 73,
-                    "endOffset": 12491
+                    "endOffset": 12904
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -2037,11 +2227,11 @@
             },
             {
                 "to": {
-                    "startLine": 163,
+                    "startLine": 173,
                     "startColumn": 4,
-                    "startOffset": 12496,
+                    "startOffset": 12909,
                     "endColumn": 88,
-                    "endOffset": 12580
+                    "endOffset": 12993
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -2056,11 +2246,11 @@
             },
             {
                 "to": {
-                    "startLine": 164,
+                    "startLine": 174,
                     "startColumn": 4,
-                    "startOffset": 12585,
+                    "startOffset": 12998,
                     "endColumn": 44,
-                    "endOffset": 12625
+                    "endOffset": 13038
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\src\\main\\res\\values\\strings.xml",
@@ -2075,11 +2265,11 @@
             },
             {
                 "to": {
-                    "startLine": 165,
+                    "startLine": 175,
                     "startColumn": 4,
-                    "startOffset": 12630,
+                    "startOffset": 13043,
                     "endColumn": 44,
-                    "endOffset": 12670
+                    "endOffset": 13083
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\src\\main\\res\\values\\strings.xml",
@@ -2094,11 +2284,11 @@
             },
             {
                 "to": {
-                    "startLine": 166,
+                    "startLine": 176,
                     "startColumn": 4,
-                    "startOffset": 12675,
+                    "startOffset": 13088,
                     "endColumn": 75,
-                    "endOffset": 12746
+                    "endOffset": 13159
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\src\\main\\res\\values\\strings.xml",
@@ -2113,11 +2303,11 @@
             },
             {
                 "to": {
-                    "startLine": 167,
+                    "startLine": 177,
                     "startColumn": 4,
-                    "startOffset": 12751,
+                    "startOffset": 13164,
                     "endColumn": 47,
-                    "endOffset": 12794
+                    "endOffset": 13207
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\src\\main\\res\\values\\strings.xml",
@@ -2132,11 +2322,11 @@
             },
             {
                 "to": {
-                    "startLine": 168,
+                    "startLine": 178,
                     "startColumn": 4,
-                    "startOffset": 12799,
+                    "startOffset": 13212,
                     "endColumn": 53,
-                    "endOffset": 12848
+                    "endOffset": 13261
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\src\\main\\res\\values\\strings.xml",
@@ -2151,11 +2341,11 @@
             },
             {
                 "to": {
-                    "startLine": 169,
+                    "startLine": 179,
                     "startColumn": 4,
-                    "startOffset": 12853,
+                    "startOffset": 13266,
                     "endColumn": 82,
-                    "endOffset": 12931
+                    "endOffset": 13344
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\src\\main\\res\\values\\strings.xml",
@@ -2170,11 +2360,11 @@
             },
             {
                 "to": {
-                    "startLine": 170,
+                    "startLine": 180,
                     "startColumn": 4,
-                    "startOffset": 12936,
+                    "startOffset": 13349,
                     "endColumn": 49,
-                    "endOffset": 12981
+                    "endOffset": 13394
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\src\\main\\res\\values\\strings.xml",
@@ -2189,11 +2379,11 @@
             },
             {
                 "to": {
-                    "startLine": 171,
+                    "startLine": 181,
                     "startColumn": 4,
-                    "startOffset": 12986,
+                    "startOffset": 13399,
                     "endColumn": 44,
-                    "endOffset": 13026
+                    "endOffset": 13439
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\src\\main\\res\\values\\strings.xml",
@@ -2208,11 +2398,11 @@
             },
             {
                 "to": {
-                    "startLine": 172,
+                    "startLine": 182,
                     "startColumn": 4,
-                    "startOffset": 13031,
+                    "startOffset": 13444,
                     "endColumn": 64,
-                    "endOffset": 13091
+                    "endOffset": 13504
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\src\\main\\res\\values\\strings.xml",
@@ -2227,11 +2417,11 @@
             },
             {
                 "to": {
-                    "startLine": 173,
+                    "startLine": 183,
                     "startColumn": 4,
-                    "startOffset": 13096,
+                    "startOffset": 13509,
                     "endColumn": 54,
-                    "endOffset": 13146
+                    "endOffset": 13559
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\src\\main\\res\\values\\strings.xml",
@@ -2246,11 +2436,11 @@
             },
             {
                 "to": {
-                    "startLine": 174,
+                    "startLine": 184,
                     "startColumn": 4,
-                    "startOffset": 13151,
+                    "startOffset": 13564,
                     "endColumn": 51,
-                    "endOffset": 13198
+                    "endOffset": 13611
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\src\\main\\res\\values\\strings.xml",
@@ -2265,11 +2455,11 @@
             },
             {
                 "to": {
-                    "startLine": 175,
+                    "startLine": 185,
                     "startColumn": 4,
-                    "startOffset": 13203,
+                    "startOffset": 13616,
                     "endColumn": 46,
-                    "endOffset": 13245
+                    "endOffset": 13658
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\src\\main\\res\\values\\strings.xml",
@@ -2284,11 +2474,11 @@
             },
             {
                 "to": {
-                    "startLine": 176,
+                    "startLine": 186,
                     "startColumn": 4,
-                    "startOffset": 13250,
+                    "startOffset": 13663,
                     "endColumn": 52,
-                    "endOffset": 13298
+                    "endOffset": 13711
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\src\\main\\res\\values\\strings.xml",
@@ -2303,11 +2493,11 @@
             },
             {
                 "to": {
-                    "startLine": 177,
+                    "startLine": 187,
                     "startColumn": 4,
-                    "startOffset": 13303,
+                    "startOffset": 13716,
                     "endColumn": 48,
-                    "endOffset": 13347
+                    "endOffset": 13760
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\src\\main\\res\\values\\strings.xml",
@@ -2322,11 +2512,11 @@
             },
             {
                 "to": {
-                    "startLine": 178,
+                    "startLine": 188,
                     "startColumn": 4,
-                    "startOffset": 13352,
+                    "startOffset": 13765,
                     "endColumn": 54,
-                    "endOffset": 13402
+                    "endOffset": 13815
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\src\\main\\res\\values\\strings.xml",
@@ -2341,11 +2531,11 @@
             },
             {
                 "to": {
-                    "startLine": 179,
+                    "startLine": 189,
                     "startColumn": 4,
-                    "startOffset": 13407,
+                    "startOffset": 13820,
                     "endColumn": 52,
-                    "endOffset": 13455
+                    "endOffset": 13868
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\src\\main\\res\\values\\strings.xml",
@@ -2360,11 +2550,11 @@
             },
             {
                 "to": {
-                    "startLine": 180,
+                    "startLine": 190,
                     "startColumn": 4,
-                    "startOffset": 13460,
+                    "startOffset": 13873,
                     "endColumn": 42,
-                    "endOffset": 13498
+                    "endOffset": 13911
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\src\\main\\res\\values\\strings.xml",
@@ -2379,11 +2569,11 @@
             },
             {
                 "to": {
-                    "startLine": 181,
+                    "startLine": 191,
                     "startColumn": 4,
-                    "startOffset": 13503,
+                    "startOffset": 13916,
                     "endColumn": 42,
-                    "endOffset": 13541
+                    "endOffset": 13954
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\src\\main\\res\\values\\strings.xml",
@@ -2398,11 +2588,11 @@
             },
             {
                 "to": {
-                    "startLine": 182,
+                    "startLine": 192,
                     "startColumn": 4,
-                    "startOffset": 13546,
+                    "startOffset": 13959,
                     "endColumn": 43,
-                    "endOffset": 13585
+                    "endOffset": 13998
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\src\\main\\res\\values\\strings.xml",
@@ -2417,11 +2607,11 @@
             },
             {
                 "to": {
-                    "startLine": 183,
+                    "startLine": 193,
                     "startColumn": 4,
-                    "startOffset": 13590,
+                    "startOffset": 14003,
                     "endColumn": 71,
-                    "endOffset": 13657
+                    "endOffset": 14070
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\src\\main\\res\\values\\strings.xml",
@@ -2436,11 +2626,11 @@
             },
             {
                 "to": {
-                    "startLine": 184,
+                    "startLine": 194,
                     "startColumn": 4,
-                    "startOffset": 13662,
+                    "startOffset": 14075,
                     "endColumn": 63,
-                    "endOffset": 13721
+                    "endOffset": 14134
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\src\\main\\res\\values\\strings.xml",
@@ -2455,11 +2645,11 @@
             },
             {
                 "to": {
-                    "startLine": 185,
+                    "startLine": 195,
                     "startColumn": 4,
-                    "startOffset": 13726,
+                    "startOffset": 14139,
                     "endColumn": 76,
-                    "endOffset": 13798
+                    "endOffset": 14211
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\src\\main\\res\\values\\strings.xml",
@@ -2474,11 +2664,11 @@
             },
             {
                 "to": {
-                    "startLine": 186,
+                    "startLine": 196,
                     "startColumn": 4,
-                    "startOffset": 13803,
+                    "startOffset": 14216,
                     "endColumn": 49,
-                    "endOffset": 13848
+                    "endOffset": 14261
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\src\\main\\res\\values\\strings.xml",
@@ -2493,11 +2683,11 @@
             },
             {
                 "to": {
-                    "startLine": 187,
+                    "startLine": 197,
                     "startColumn": 4,
-                    "startOffset": 13853,
+                    "startOffset": 14266,
                     "endColumn": 73,
-                    "endOffset": 13922
+                    "endOffset": 14335
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\src\\main\\res\\values\\strings.xml",
@@ -2512,11 +2702,11 @@
             },
             {
                 "to": {
-                    "startLine": 188,
+                    "startLine": 198,
                     "startColumn": 4,
-                    "startOffset": 13927,
+                    "startOffset": 14340,
                     "endColumn": 57,
-                    "endOffset": 13980
+                    "endOffset": 14393
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\src\\main\\res\\values\\strings.xml",
@@ -2531,11 +2721,11 @@
             },
             {
                 "to": {
-                    "startLine": 189,
+                    "startLine": 199,
                     "startColumn": 4,
-                    "startOffset": 13985,
+                    "startOffset": 14398,
                     "endColumn": 59,
-                    "endOffset": 14040
+                    "endOffset": 14453
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\src\\main\\res\\values\\strings.xml",
@@ -2550,12 +2740,12 @@
             },
             {
                 "to": {
-                    "startLine": 190,
+                    "startLine": 200,
                     "startColumn": 4,
-                    "startOffset": 14045,
-                    "endLine": 192,
+                    "startOffset": 14458,
+                    "endLine": 202,
                     "endColumn": 12,
-                    "endOffset": 14240
+                    "endOffset": 14653
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -2571,12 +2761,12 @@
             },
             {
                 "to": {
-                    "startLine": 193,
+                    "startLine": 203,
                     "startColumn": 4,
-                    "startOffset": 14245,
-                    "endLine": 197,
+                    "startOffset": 14658,
+                    "endLine": 207,
                     "endColumn": 12,
-                    "endOffset": 14523
+                    "endOffset": 14936
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -2592,12 +2782,12 @@
             },
             {
                 "to": {
-                    "startLine": 198,
+                    "startLine": 208,
                     "startColumn": 4,
-                    "startOffset": 14528,
-                    "endLine": 201,
+                    "startOffset": 14941,
+                    "endLine": 211,
                     "endColumn": 12,
-                    "endOffset": 14731
+                    "endOffset": 15144
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -2613,12 +2803,12 @@
             },
             {
                 "to": {
-                    "startLine": 202,
+                    "startLine": 212,
                     "startColumn": 4,
-                    "startOffset": 14736,
-                    "endLine": 204,
+                    "startOffset": 15149,
+                    "endLine": 214,
                     "endColumn": 12,
-                    "endOffset": 14862
+                    "endOffset": 15275
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -2634,12 +2824,12 @@
             },
             {
                 "to": {
-                    "startLine": 205,
+                    "startLine": 215,
                     "startColumn": 4,
-                    "startOffset": 14867,
-                    "endLine": 208,
+                    "startOffset": 15280,
+                    "endLine": 218,
                     "endColumn": 12,
-                    "endOffset": 15124
+                    "endOffset": 15537
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -2655,12 +2845,12 @@
             },
             {
                 "to": {
-                    "startLine": 209,
+                    "startLine": 219,
                     "startColumn": 4,
-                    "startOffset": 15129,
-                    "endLine": 212,
+                    "startOffset": 15542,
+                    "endLine": 222,
                     "endColumn": 12,
-                    "endOffset": 15386
+                    "endOffset": 15799
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -2676,12 +2866,12 @@
             },
             {
                 "to": {
-                    "startLine": 213,
+                    "startLine": 223,
                     "startColumn": 4,
-                    "startOffset": 15391,
-                    "endLine": 216,
+                    "startOffset": 15804,
+                    "endLine": 226,
                     "endColumn": 12,
-                    "endOffset": 15664
+                    "endOffset": 16077
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -2697,12 +2887,12 @@
             },
             {
                 "to": {
-                    "startLine": 217,
+                    "startLine": 227,
                     "startColumn": 4,
-                    "startOffset": 15669,
-                    "endLine": 220,
+                    "startOffset": 16082,
+                    "endLine": 230,
                     "endColumn": 12,
-                    "endOffset": 15878
+                    "endOffset": 16291
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -2718,12 +2908,12 @@
             },
             {
                 "to": {
-                    "startLine": 221,
+                    "startLine": 231,
                     "startColumn": 4,
-                    "startOffset": 15883,
-                    "endLine": 223,
+                    "startOffset": 16296,
+                    "endLine": 233,
                     "endColumn": 12,
-                    "endOffset": 16015
+                    "endOffset": 16428
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -2739,11 +2929,11 @@
             },
             {
                 "to": {
-                    "startLine": 224,
+                    "startLine": 234,
                     "startColumn": 4,
-                    "startOffset": 16020,
+                    "startOffset": 16433,
                     "endColumn": 140,
-                    "endOffset": 16156
+                    "endOffset": 16569
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -2758,11 +2948,11 @@
             },
             {
                 "to": {
-                    "startLine": 225,
+                    "startLine": 235,
                     "startColumn": 4,
-                    "startOffset": 16161,
+                    "startOffset": 16574,
                     "endColumn": 140,
-                    "endOffset": 16297
+                    "endOffset": 16710
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -2777,11 +2967,11 @@
             },
             {
                 "to": {
-                    "startLine": 226,
+                    "startLine": 236,
                     "startColumn": 4,
-                    "startOffset": 16302,
+                    "startOffset": 16715,
                     "endColumn": 139,
-                    "endOffset": 16437
+                    "endOffset": 16850
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -2796,11 +2986,11 @@
             },
             {
                 "to": {
-                    "startLine": 227,
+                    "startLine": 237,
                     "startColumn": 4,
-                    "startOffset": 16442,
+                    "startOffset": 16855,
                     "endColumn": 133,
-                    "endOffset": 16571
+                    "endOffset": 16984
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -2815,11 +3005,11 @@
             },
             {
                 "to": {
-                    "startLine": 228,
+                    "startLine": 238,
                     "startColumn": 4,
-                    "startOffset": 16576,
+                    "startOffset": 16989,
                     "endColumn": 141,
-                    "endOffset": 16713
+                    "endOffset": 17126
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -2834,11 +3024,11 @@
             },
             {
                 "to": {
-                    "startLine": 229,
+                    "startLine": 239,
                     "startColumn": 4,
-                    "startOffset": 16718,
+                    "startOffset": 17131,
                     "endColumn": 141,
-                    "endOffset": 16855
+                    "endOffset": 17268
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -2853,11 +3043,11 @@
             },
             {
                 "to": {
-                    "startLine": 230,
+                    "startLine": 240,
                     "startColumn": 4,
-                    "startOffset": 16860,
+                    "startOffset": 17273,
                     "endColumn": 127,
-                    "endOffset": 16983
+                    "endOffset": 17396
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -2872,11 +3062,11 @@
             },
             {
                 "to": {
-                    "startLine": 231,
+                    "startLine": 241,
                     "startColumn": 4,
-                    "startOffset": 16988,
+                    "startOffset": 17401,
                     "endColumn": 121,
-                    "endOffset": 17105
+                    "endOffset": 17518
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -2891,11 +3081,11 @@
             },
             {
                 "to": {
-                    "startLine": 232,
+                    "startLine": 242,
                     "startColumn": 4,
-                    "startOffset": 17110,
+                    "startOffset": 17523,
                     "endColumn": 127,
-                    "endOffset": 17233
+                    "endOffset": 17646
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -2910,11 +3100,11 @@
             },
             {
                 "to": {
-                    "startLine": 233,
+                    "startLine": 243,
                     "startColumn": 4,
-                    "startOffset": 17238,
+                    "startOffset": 17651,
                     "endColumn": 135,
-                    "endOffset": 17369
+                    "endOffset": 17782
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -2929,11 +3119,11 @@
             },
             {
                 "to": {
-                    "startLine": 234,
+                    "startLine": 244,
                     "startColumn": 4,
-                    "startOffset": 17374,
+                    "startOffset": 17787,
                     "endColumn": 151,
-                    "endOffset": 17521
+                    "endOffset": 17934
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -2948,11 +3138,11 @@
             },
             {
                 "to": {
-                    "startLine": 235,
+                    "startLine": 245,
                     "startColumn": 4,
-                    "startOffset": 17526,
+                    "startOffset": 17939,
                     "endColumn": 129,
-                    "endOffset": 17651
+                    "endOffset": 18064
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -2967,11 +3157,11 @@
             },
             {
                 "to": {
-                    "startLine": 236,
+                    "startLine": 246,
                     "startColumn": 4,
-                    "startOffset": 17656,
+                    "startOffset": 18069,
                     "endColumn": 145,
-                    "endOffset": 17797
+                    "endOffset": 18210
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -2986,11 +3176,11 @@
             },
             {
                 "to": {
-                    "startLine": 237,
+                    "startLine": 247,
                     "startColumn": 4,
-                    "startOffset": 17802,
+                    "startOffset": 18215,
                     "endColumn": 137,
-                    "endOffset": 17935
+                    "endOffset": 18348
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -3005,11 +3195,11 @@
             },
             {
                 "to": {
-                    "startLine": 238,
+                    "startLine": 248,
                     "startColumn": 4,
-                    "startOffset": 17940,
+                    "startOffset": 18353,
                     "endColumn": 153,
-                    "endOffset": 18089
+                    "endOffset": 18502
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -3024,11 +3214,11 @@
             },
             {
                 "to": {
-                    "startLine": 239,
+                    "startLine": 249,
                     "startColumn": 4,
-                    "startOffset": 18094,
+                    "startOffset": 18507,
                     "endColumn": 131,
-                    "endOffset": 18221
+                    "endOffset": 18634
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -3043,11 +3233,11 @@
             },
             {
                 "to": {
-                    "startLine": 240,
+                    "startLine": 250,
                     "startColumn": 4,
-                    "startOffset": 18226,
+                    "startOffset": 18639,
                     "endColumn": 147,
-                    "endOffset": 18369
+                    "endOffset": 18782
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -3062,12 +3252,12 @@
             },
             {
                 "to": {
-                    "startLine": 241,
+                    "startLine": 251,
                     "startColumn": 4,
-                    "startOffset": 18374,
-                    "endLine": 245,
+                    "startOffset": 18787,
+                    "endLine": 255,
                     "endColumn": 12,
-                    "endOffset": 18664
+                    "endOffset": 19077
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -3083,11 +3273,11 @@
             },
             {
                 "to": {
-                    "startLine": 246,
+                    "startLine": 256,
                     "startColumn": 4,
-                    "startOffset": 18669,
+                    "startOffset": 19082,
                     "endColumn": 113,
-                    "endOffset": 18778
+                    "endOffset": 19191
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -3102,11 +3292,11 @@
             },
             {
                 "to": {
-                    "startLine": 247,
+                    "startLine": 257,
                     "startColumn": 4,
-                    "startOffset": 18783,
+                    "startOffset": 19196,
                     "endColumn": 129,
-                    "endOffset": 18908
+                    "endOffset": 19321
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -3121,11 +3311,11 @@
             },
             {
                 "to": {
-                    "startLine": 248,
+                    "startLine": 258,
                     "startColumn": 4,
-                    "startOffset": 18913,
+                    "startOffset": 19326,
                     "endColumn": 111,
-                    "endOffset": 19020
+                    "endOffset": 19433
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -3140,11 +3330,11 @@
             },
             {
                 "to": {
-                    "startLine": 249,
+                    "startLine": 259,
                     "startColumn": 4,
-                    "startOffset": 19025,
+                    "startOffset": 19438,
                     "endColumn": 127,
-                    "endOffset": 19148
+                    "endOffset": 19561
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -3159,12 +3349,12 @@
             },
             {
                 "to": {
-                    "startLine": 250,
+                    "startLine": 260,
                     "startColumn": 4,
-                    "startOffset": 19153,
-                    "endLine": 252,
+                    "startOffset": 19566,
+                    "endLine": 262,
                     "endColumn": 12,
-                    "endOffset": 19354
+                    "endOffset": 19767
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -3180,12 +3370,12 @@
             },
             {
                 "to": {
-                    "startLine": 253,
+                    "startLine": 263,
                     "startColumn": 4,
-                    "startOffset": 19359,
-                    "endLine": 255,
+                    "startOffset": 19772,
+                    "endLine": 265,
                     "endColumn": 12,
-                    "endOffset": 19583
+                    "endOffset": 19996
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -3201,11 +3391,11 @@
             },
             {
                 "to": {
-                    "startLine": 256,
+                    "startLine": 266,
                     "startColumn": 4,
-                    "startOffset": 19588,
+                    "startOffset": 20001,
                     "endColumn": 112,
-                    "endOffset": 19696
+                    "endOffset": 20109
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -3220,11 +3410,11 @@
             },
             {
                 "to": {
-                    "startLine": 257,
+                    "startLine": 267,
                     "startColumn": 4,
-                    "startOffset": 19701,
+                    "startOffset": 20114,
                     "endColumn": 128,
-                    "endOffset": 19825
+                    "endOffset": 20238
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -3239,12 +3429,12 @@
             },
             {
                 "to": {
-                    "startLine": 258,
+                    "startLine": 268,
                     "startColumn": 4,
-                    "startOffset": 19830,
-                    "endLine": 260,
+                    "startOffset": 20243,
+                    "endLine": 270,
                     "endColumn": 12,
-                    "endOffset": 20033
+                    "endOffset": 20446
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -3260,11 +3450,11 @@
             },
             {
                 "to": {
-                    "startLine": 261,
+                    "startLine": 271,
                     "startColumn": 4,
-                    "startOffset": 20038,
+                    "startOffset": 20451,
                     "endColumn": 123,
-                    "endOffset": 20157
+                    "endOffset": 20570
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -3279,11 +3469,11 @@
             },
             {
                 "to": {
-                    "startLine": 262,
+                    "startLine": 272,
                     "startColumn": 4,
-                    "startOffset": 20162,
+                    "startOffset": 20575,
                     "endColumn": 129,
-                    "endOffset": 20287
+                    "endOffset": 20700
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -3298,11 +3488,11 @@
             },
             {
                 "to": {
-                    "startLine": 263,
+                    "startLine": 273,
                     "startColumn": 4,
-                    "startOffset": 20292,
+                    "startOffset": 20705,
                     "endColumn": 129,
-                    "endOffset": 20417
+                    "endOffset": 20830
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -3317,12 +3507,12 @@
             },
             {
                 "to": {
-                    "startLine": 264,
+                    "startLine": 274,
                     "startColumn": 4,
-                    "startOffset": 20422,
-                    "endLine": 266,
+                    "startOffset": 20835,
+                    "endLine": 276,
                     "endColumn": 12,
-                    "endOffset": 20631
+                    "endOffset": 21044
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -3338,11 +3528,11 @@
             },
             {
                 "to": {
-                    "startLine": 267,
+                    "startLine": 277,
                     "startColumn": 4,
-                    "startOffset": 20636,
+                    "startOffset": 21049,
                     "endColumn": 133,
-                    "endOffset": 20765
+                    "endOffset": 21178
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -3357,12 +3547,12 @@
             },
             {
                 "to": {
-                    "startLine": 268,
+                    "startLine": 278,
                     "startColumn": 4,
-                    "startOffset": 20770,
-                    "endLine": 301,
+                    "startOffset": 21183,
+                    "endLine": 311,
                     "endColumn": 12,
-                    "endOffset": 23248
+                    "endOffset": 23661
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -3378,12 +3568,12 @@
             },
             {
                 "to": {
-                    "startLine": 302,
+                    "startLine": 312,
                     "startColumn": 4,
-                    "startOffset": 23253,
-                    "endLine": 305,
+                    "startOffset": 23666,
+                    "endLine": 315,
                     "endColumn": 12,
-                    "endOffset": 23535
+                    "endOffset": 23948
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -3399,12 +3589,12 @@
             },
             {
                 "to": {
-                    "startLine": 306,
+                    "startLine": 316,
                     "startColumn": 4,
-                    "startOffset": 23540,
-                    "endLine": 309,
+                    "startOffset": 23953,
+                    "endLine": 319,
                     "endColumn": 12,
-                    "endOffset": 23826
+                    "endOffset": 24239
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -3420,11 +3610,11 @@
             },
             {
                 "to": {
-                    "startLine": 310,
+                    "startLine": 320,
                     "startColumn": 4,
-                    "startOffset": 23831,
+                    "startOffset": 24244,
                     "endColumn": 89,
-                    "endOffset": 23916
+                    "endOffset": 24329
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -3439,11 +3629,11 @@
             },
             {
                 "to": {
-                    "startLine": 311,
+                    "startLine": 321,
                     "startColumn": 4,
-                    "startOffset": 23921,
+                    "startOffset": 24334,
                     "endColumn": 103,
-                    "endOffset": 24020
+                    "endOffset": 24433
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -3458,12 +3648,12 @@
             },
             {
                 "to": {
-                    "startLine": 312,
+                    "startLine": 322,
                     "startColumn": 4,
-                    "startOffset": 24025,
-                    "endLine": 345,
+                    "startOffset": 24438,
+                    "endLine": 355,
                     "endColumn": 12,
-                    "endOffset": 26642
+                    "endOffset": 27055
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -3479,12 +3669,12 @@
             },
             {
                 "to": {
-                    "startLine": 346,
+                    "startLine": 356,
                     "startColumn": 4,
-                    "startOffset": 26647,
-                    "endLine": 379,
+                    "startOffset": 27060,
+                    "endLine": 389,
                     "endColumn": 12,
-                    "endOffset": 29188
+                    "endOffset": 29601
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -3500,11 +3690,11 @@
             },
             {
                 "to": {
-                    "startLine": 380,
+                    "startLine": 390,
                     "startColumn": 4,
-                    "startOffset": 29193,
+                    "startOffset": 29606,
                     "endColumn": 53,
-                    "endOffset": 29242
+                    "endOffset": 29655
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -3519,12 +3709,12 @@
             },
             {
                 "to": {
-                    "startLine": 381,
+                    "startLine": 391,
                     "startColumn": 4,
-                    "startOffset": 29247,
-                    "endLine": 427,
+                    "startOffset": 29660,
+                    "endLine": 437,
                     "endColumn": 12,
-                    "endOffset": 32616
+                    "endOffset": 33029
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -3540,12 +3730,12 @@
             },
             {
                 "to": {
-                    "startLine": 428,
+                    "startLine": 438,
                     "startColumn": 4,
-                    "startOffset": 32621,
-                    "endLine": 476,
+                    "startOffset": 33034,
+                    "endLine": 486,
                     "endColumn": 12,
-                    "endOffset": 36119
+                    "endOffset": 36532
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -3561,12 +3751,12 @@
             },
             {
                 "to": {
-                    "startLine": 477,
+                    "startLine": 487,
                     "startColumn": 4,
-                    "startOffset": 36124,
-                    "endLine": 502,
+                    "startOffset": 36537,
+                    "endLine": 512,
                     "endColumn": 12,
-                    "endOffset": 38037
+                    "endOffset": 38450
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -3582,11 +3772,11 @@
             },
             {
                 "to": {
-                    "startLine": 503,
+                    "startLine": 513,
                     "startColumn": 4,
-                    "startOffset": 38042,
+                    "startOffset": 38455,
                     "endColumn": 65,
-                    "endOffset": 38103
+                    "endOffset": 38516
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -3601,11 +3791,11 @@
             },
             {
                 "to": {
-                    "startLine": 504,
+                    "startLine": 514,
                     "startColumn": 4,
-                    "startOffset": 38108,
+                    "startOffset": 38521,
                     "endColumn": 87,
-                    "endOffset": 38191
+                    "endOffset": 38604
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -3620,11 +3810,11 @@
             },
             {
                 "to": {
-                    "startLine": 505,
+                    "startLine": 515,
                     "startColumn": 4,
-                    "startOffset": 38196,
+                    "startOffset": 38609,
                     "endColumn": 99,
-                    "endOffset": 38291
+                    "endOffset": 38704
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -3639,11 +3829,11 @@
             },
             {
                 "to": {
-                    "startLine": 506,
+                    "startLine": 516,
                     "startColumn": 4,
-                    "startOffset": 38296,
+                    "startOffset": 38709,
                     "endColumn": 101,
-                    "endOffset": 38393
+                    "endOffset": 38806
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -3658,11 +3848,11 @@
             },
             {
                 "to": {
-                    "startLine": 507,
+                    "startLine": 517,
                     "startColumn": 4,
-                    "startOffset": 38398,
+                    "startOffset": 38811,
                     "endColumn": 103,
-                    "endOffset": 38497
+                    "endOffset": 38910
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -3677,11 +3867,11 @@
             },
             {
                 "to": {
-                    "startLine": 508,
+                    "startLine": 518,
                     "startColumn": 4,
-                    "startOffset": 38502,
+                    "startOffset": 38915,
                     "endColumn": 103,
-                    "endOffset": 38601
+                    "endOffset": 39014
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -3696,11 +3886,11 @@
             },
             {
                 "to": {
-                    "startLine": 509,
+                    "startLine": 519,
                     "startColumn": 4,
-                    "startOffset": 38606,
+                    "startOffset": 39019,
                     "endColumn": 93,
-                    "endOffset": 38695
+                    "endOffset": 39108
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -3715,11 +3905,11 @@
             },
             {
                 "to": {
-                    "startLine": 510,
+                    "startLine": 520,
                     "startColumn": 4,
-                    "startOffset": 38700,
+                    "startOffset": 39113,
                     "endColumn": 113,
-                    "endOffset": 38809
+                    "endOffset": 39222
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -3734,11 +3924,11 @@
             },
             {
                 "to": {
-                    "startLine": 511,
+                    "startLine": 521,
                     "startColumn": 4,
-                    "startOffset": 38814,
+                    "startOffset": 39227,
                     "endColumn": 111,
-                    "endOffset": 38921
+                    "endOffset": 39334
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -3753,11 +3943,11 @@
             },
             {
                 "to": {
-                    "startLine": 512,
+                    "startLine": 522,
                     "startColumn": 4,
-                    "startOffset": 38926,
+                    "startOffset": 39339,
                     "endColumn": 89,
-                    "endOffset": 39011
+                    "endOffset": 39424
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -3772,11 +3962,11 @@
             },
             {
                 "to": {
-                    "startLine": 513,
+                    "startLine": 523,
                     "startColumn": 4,
-                    "startOffset": 39016,
+                    "startOffset": 39429,
                     "endColumn": 107,
-                    "endOffset": 39119
+                    "endOffset": 39532
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -3791,11 +3981,11 @@
             },
             {
                 "to": {
-                    "startLine": 514,
+                    "startLine": 524,
                     "startColumn": 4,
-                    "startOffset": 39124,
+                    "startOffset": 39537,
                     "endColumn": 109,
-                    "endOffset": 39229
+                    "endOffset": 39642
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -3810,12 +4000,12 @@
             },
             {
                 "to": {
-                    "startLine": 515,
+                    "startLine": 525,
                     "startColumn": 4,
-                    "startOffset": 39234,
-                    "endLine": 529,
+                    "startOffset": 39647,
+                    "endLine": 539,
                     "endColumn": 12,
-                    "endOffset": 40382
+                    "endOffset": 40795
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -3831,12 +4021,12 @@
             },
             {
                 "to": {
-                    "startLine": 530,
+                    "startLine": 540,
                     "startColumn": 4,
-                    "startOffset": 40387,
-                    "endLine": 534,
+                    "startOffset": 40800,
+                    "endLine": 544,
                     "endColumn": 12,
-                    "endOffset": 40736
+                    "endOffset": 41149
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -3852,12 +4042,12 @@
             },
             {
                 "to": {
-                    "startLine": 535,
+                    "startLine": 545,
                     "startColumn": 4,
-                    "startOffset": 40741,
-                    "endLine": 539,
+                    "startOffset": 41154,
+                    "endLine": 549,
                     "endColumn": 12,
-                    "endOffset": 40973
+                    "endOffset": 41386
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -3873,12 +4063,12 @@
             },
             {
                 "to": {
-                    "startLine": 540,
+                    "startLine": 550,
                     "startColumn": 4,
-                    "startOffset": 40978,
-                    "endLine": 548,
+                    "startOffset": 41391,
+                    "endLine": 558,
                     "endColumn": 12,
-                    "endOffset": 41447
+                    "endOffset": 41860
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -3894,12 +4084,12 @@
             },
             {
                 "to": {
-                    "startLine": 549,
+                    "startLine": 559,
                     "startColumn": 4,
-                    "startOffset": 41452,
-                    "endLine": 554,
+                    "startOffset": 41865,
+                    "endLine": 564,
                     "endColumn": 12,
-                    "endOffset": 41783
+                    "endOffset": 42196
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -3915,12 +4105,12 @@
             },
             {
                 "to": {
-                    "startLine": 555,
+                    "startLine": 565,
                     "startColumn": 4,
-                    "startOffset": 41788,
-                    "endLine": 564,
+                    "startOffset": 42201,
+                    "endLine": 574,
                     "endColumn": 12,
-                    "endOffset": 42369
+                    "endOffset": 42782
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -3936,11 +4126,11 @@
             },
             {
                 "to": {
-                    "startLine": 565,
+                    "startLine": 575,
                     "startColumn": 4,
-                    "startOffset": 42374,
+                    "startOffset": 42787,
                     "endColumn": 108,
-                    "endOffset": 42478
+                    "endOffset": 42891
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -3955,12 +4145,12 @@
             },
             {
                 "to": {
-                    "startLine": 566,
+                    "startLine": 576,
                     "startColumn": 4,
-                    "startOffset": 42483,
-                    "endLine": 568,
+                    "startOffset": 42896,
+                    "endLine": 578,
                     "endColumn": 12,
-                    "endOffset": 42690
+                    "endOffset": 43103
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -3976,12 +4166,12 @@
             },
             {
                 "to": {
-                    "startLine": 569,
+                    "startLine": 579,
                     "startColumn": 4,
-                    "startOffset": 42695,
-                    "endLine": 575,
+                    "startOffset": 43108,
+                    "endLine": 585,
                     "endColumn": 12,
-                    "endOffset": 43166
+                    "endOffset": 43579
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -3997,12 +4187,12 @@
             },
             {
                 "to": {
-                    "startLine": 576,
+                    "startLine": 586,
                     "startColumn": 4,
-                    "startOffset": 43171,
-                    "endLine": 582,
+                    "startOffset": 43584,
+                    "endLine": 592,
                     "endColumn": 12,
-                    "endOffset": 43540
+                    "endOffset": 43953
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -4018,12 +4208,12 @@
             },
             {
                 "to": {
-                    "startLine": 583,
+                    "startLine": 593,
                     "startColumn": 4,
-                    "startOffset": 43545,
-                    "endLine": 587,
+                    "startOffset": 43958,
+                    "endLine": 597,
                     "endColumn": 12,
-                    "endOffset": 43919
+                    "endOffset": 44332
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -4039,12 +4229,12 @@
             },
             {
                 "to": {
-                    "startLine": 588,
+                    "startLine": 598,
                     "startColumn": 4,
-                    "startOffset": 43924,
-                    "endLine": 593,
+                    "startOffset": 44337,
+                    "endLine": 603,
                     "endColumn": 12,
-                    "endOffset": 44272
+                    "endOffset": 44685
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -4060,12 +4250,12 @@
             },
             {
                 "to": {
-                    "startLine": 594,
+                    "startLine": 604,
                     "startColumn": 4,
-                    "startOffset": 44277,
-                    "endLine": 596,
+                    "startOffset": 44690,
+                    "endLine": 606,
                     "endColumn": 12,
-                    "endOffset": 44464
+                    "endOffset": 44877
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -4081,12 +4271,12 @@
             },
             {
                 "to": {
-                    "startLine": 597,
+                    "startLine": 607,
                     "startColumn": 4,
-                    "startOffset": 44469,
-                    "endLine": 600,
+                    "startOffset": 44882,
+                    "endLine": 610,
                     "endColumn": 12,
-                    "endOffset": 44723
+                    "endOffset": 45136
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -4102,12 +4292,12 @@
             },
             {
                 "to": {
-                    "startLine": 601,
+                    "startLine": 611,
                     "startColumn": 4,
-                    "startOffset": 44728,
-                    "endLine": 607,
+                    "startOffset": 45141,
+                    "endLine": 617,
                     "endColumn": 12,
-                    "endOffset": 45177
+                    "endOffset": 45590
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -4123,11 +4313,11 @@
             },
             {
                 "to": {
-                    "startLine": 608,
+                    "startLine": 618,
                     "startColumn": 4,
-                    "startOffset": 45182,
+                    "startOffset": 45595,
                     "endColumn": 89,
-                    "endOffset": 45267
+                    "endOffset": 45680
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -4142,11 +4332,11 @@
             },
             {
                 "to": {
-                    "startLine": 609,
+                    "startLine": 619,
                     "startColumn": 4,
-                    "startOffset": 45272,
+                    "startOffset": 45685,
                     "endColumn": 111,
-                    "endOffset": 45379
+                    "endOffset": 45792
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -4161,12 +4351,12 @@
             },
             {
                 "to": {
-                    "startLine": 610,
+                    "startLine": 620,
                     "startColumn": 4,
-                    "startOffset": 45384,
-                    "endLine": 620,
+                    "startOffset": 45797,
+                    "endLine": 630,
                     "endColumn": 12,
-                    "endOffset": 46078
+                    "endOffset": 46491
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -4182,11 +4372,11 @@
             },
             {
                 "to": {
-                    "startLine": 621,
+                    "startLine": 631,
                     "startColumn": 4,
-                    "startOffset": 46083,
+                    "startOffset": 46496,
                     "endColumn": 109,
-                    "endOffset": 46188
+                    "endOffset": 46601
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -4201,11 +4391,11 @@
             },
             {
                 "to": {
-                    "startLine": 622,
+                    "startLine": 632,
                     "startColumn": 4,
-                    "startOffset": 46193,
+                    "startOffset": 46606,
                     "endColumn": 99,
-                    "endOffset": 46288
+                    "endOffset": 46701
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -4220,11 +4410,11 @@
             },
             {
                 "to": {
-                    "startLine": 623,
+                    "startLine": 633,
                     "startColumn": 4,
-                    "startOffset": 46293,
+                    "startOffset": 46706,
                     "endColumn": 111,
-                    "endOffset": 46400
+                    "endOffset": 46813
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -4239,11 +4429,11 @@
             },
             {
                 "to": {
-                    "startLine": 624,
+                    "startLine": 634,
                     "startColumn": 4,
-                    "startOffset": 46405,
+                    "startOffset": 46818,
                     "endColumn": 127,
-                    "endOffset": 46528
+                    "endOffset": 46941
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -4258,11 +4448,11 @@
             },
             {
                 "to": {
-                    "startLine": 625,
+                    "startLine": 635,
                     "startColumn": 4,
-                    "startOffset": 46533,
+                    "startOffset": 46946,
                     "endColumn": 113,
-                    "endOffset": 46642
+                    "endOffset": 47055
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -4277,11 +4467,11 @@
             },
             {
                 "to": {
-                    "startLine": 626,
+                    "startLine": 636,
                     "startColumn": 4,
-                    "startOffset": 46647,
+                    "startOffset": 47060,
                     "endColumn": 129,
-                    "endOffset": 46772
+                    "endOffset": 47185
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -4296,11 +4486,11 @@
             },
             {
                 "to": {
-                    "startLine": 627,
+                    "startLine": 637,
                     "startColumn": 4,
-                    "startOffset": 46777,
+                    "startOffset": 47190,
                     "endColumn": 115,
-                    "endOffset": 46888
+                    "endOffset": 47301
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -4315,11 +4505,11 @@
             },
             {
                 "to": {
-                    "startLine": 628,
+                    "startLine": 638,
                     "startColumn": 4,
-                    "startOffset": 46893,
+                    "startOffset": 47306,
                     "endColumn": 131,
-                    "endOffset": 47020
+                    "endOffset": 47433
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -4334,11 +4524,11 @@
             },
             {
                 "to": {
-                    "startLine": 629,
+                    "startLine": 639,
                     "startColumn": 4,
-                    "startOffset": 47025,
+                    "startOffset": 47438,
                     "endColumn": 115,
-                    "endOffset": 47136
+                    "endOffset": 47549
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -4353,11 +4543,11 @@
             },
             {
                 "to": {
-                    "startLine": 630,
+                    "startLine": 640,
                     "startColumn": 4,
-                    "startOffset": 47141,
+                    "startOffset": 47554,
                     "endColumn": 131,
-                    "endOffset": 47268
+                    "endOffset": 47681
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -4372,11 +4562,11 @@
             },
             {
                 "to": {
-                    "startLine": 631,
+                    "startLine": 641,
                     "startColumn": 4,
-                    "startOffset": 47273,
+                    "startOffset": 47686,
                     "endColumn": 105,
-                    "endOffset": 47374
+                    "endOffset": 47787
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -4391,11 +4581,11 @@
             },
             {
                 "to": {
-                    "startLine": 632,
+                    "startLine": 642,
                     "startColumn": 4,
-                    "startOffset": 47379,
+                    "startOffset": 47792,
                     "endColumn": 125,
-                    "endOffset": 47500
+                    "endOffset": 47913
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -4410,11 +4600,11 @@
             },
             {
                 "to": {
-                    "startLine": 633,
+                    "startLine": 643,
                     "startColumn": 4,
-                    "startOffset": 47505,
+                    "startOffset": 47918,
                     "endColumn": 123,
-                    "endOffset": 47624
+                    "endOffset": 48037
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -4429,11 +4619,11 @@
             },
             {
                 "to": {
-                    "startLine": 634,
+                    "startLine": 644,
                     "startColumn": 4,
-                    "startOffset": 47629,
+                    "startOffset": 48042,
                     "endColumn": 117,
-                    "endOffset": 47742
+                    "endOffset": 48155
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -4448,11 +4638,11 @@
             },
             {
                 "to": {
-                    "startLine": 635,
+                    "startLine": 645,
                     "startColumn": 4,
-                    "startOffset": 47747,
+                    "startOffset": 48160,
                     "endColumn": 119,
-                    "endOffset": 47862
+                    "endOffset": 48275
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -4467,11 +4657,11 @@
             },
             {
                 "to": {
-                    "startLine": 636,
+                    "startLine": 646,
                     "startColumn": 4,
-                    "startOffset": 47867,
+                    "startOffset": 48280,
                     "endColumn": 121,
-                    "endOffset": 47984
+                    "endOffset": 48397
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -4486,12 +4676,12 @@
             },
             {
                 "to": {
-                    "startLine": 637,
+                    "startLine": 647,
                     "startColumn": 4,
-                    "startOffset": 47989,
-                    "endLine": 645,
+                    "startOffset": 48402,
+                    "endLine": 655,
                     "endColumn": 12,
-                    "endOffset": 48737
+                    "endOffset": 49150
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -4507,12 +4697,12 @@
             },
             {
                 "to": {
-                    "startLine": 646,
+                    "startLine": 656,
                     "startColumn": 4,
-                    "startOffset": 48742,
-                    "endLine": 650,
+                    "startOffset": 49155,
+                    "endLine": 660,
                     "endColumn": 12,
-                    "endOffset": 49106
+                    "endOffset": 49519
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -4528,12 +4718,12 @@
             },
             {
                 "to": {
-                    "startLine": 651,
+                    "startLine": 661,
                     "startColumn": 4,
-                    "startOffset": 49111,
-                    "endLine": 656,
+                    "startOffset": 49524,
+                    "endLine": 666,
                     "endColumn": 12,
-                    "endOffset": 49662
+                    "endOffset": 50075
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -4549,11 +4739,11 @@
             },
             {
                 "to": {
-                    "startLine": 657,
+                    "startLine": 667,
                     "startColumn": 4,
-                    "startOffset": 49667,
+                    "startOffset": 50080,
                     "endColumn": 112,
-                    "endOffset": 49775
+                    "endOffset": 50188
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -4568,11 +4758,11 @@
             },
             {
                 "to": {
-                    "startLine": 658,
+                    "startLine": 668,
                     "startColumn": 4,
-                    "startOffset": 49780,
+                    "startOffset": 50193,
                     "endColumn": 126,
-                    "endOffset": 49902
+                    "endOffset": 50315
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -4587,11 +4777,11 @@
             },
             {
                 "to": {
-                    "startLine": 659,
+                    "startLine": 669,
                     "startColumn": 4,
-                    "startOffset": 49907,
+                    "startOffset": 50320,
                     "endColumn": 114,
-                    "endOffset": 50017
+                    "endOffset": 50430
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -4606,12 +4796,12 @@
             },
             {
                 "to": {
-                    "startLine": 660,
+                    "startLine": 670,
                     "startColumn": 4,
-                    "startOffset": 50022,
-                    "endLine": 662,
+                    "startOffset": 50435,
+                    "endLine": 672,
                     "endColumn": 12,
-                    "endOffset": 50253
+                    "endOffset": 50666
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -4627,11 +4817,11 @@
             },
             {
                 "to": {
-                    "startLine": 663,
+                    "startLine": 673,
                     "startColumn": 4,
-                    "startOffset": 50258,
+                    "startOffset": 50671,
                     "endColumn": 114,
-                    "endOffset": 50368
+                    "endOffset": 50781
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -4646,11 +4836,11 @@
             },
             {
                 "to": {
-                    "startLine": 664,
+                    "startLine": 674,
                     "startColumn": 4,
-                    "startOffset": 50373,
+                    "startOffset": 50786,
                     "endColumn": 128,
-                    "endOffset": 50497
+                    "endOffset": 50910
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -4665,11 +4855,11 @@
             },
             {
                 "to": {
-                    "startLine": 665,
+                    "startLine": 675,
                     "startColumn": 4,
-                    "startOffset": 50502,
+                    "startOffset": 50915,
                     "endColumn": 104,
-                    "endOffset": 50602
+                    "endOffset": 51015
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -4684,11 +4874,11 @@
             },
             {
                 "to": {
-                    "startLine": 666,
+                    "startLine": 676,
                     "startColumn": 4,
-                    "startOffset": 50607,
+                    "startOffset": 51020,
                     "endColumn": 120,
-                    "endOffset": 50723
+                    "endOffset": 51136
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -4703,12 +4893,12 @@
             },
             {
                 "to": {
-                    "startLine": 667,
+                    "startLine": 677,
                     "startColumn": 4,
-                    "startOffset": 50728,
-                    "endLine": 669,
+                    "startOffset": 51141,
+                    "endLine": 679,
                     "endColumn": 12,
-                    "endOffset": 50948
+                    "endOffset": 51361
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -4724,12 +4914,12 @@
             },
             {
                 "to": {
-                    "startLine": 670,
+                    "startLine": 680,
                     "startColumn": 4,
-                    "startOffset": 50953,
-                    "endLine": 673,
+                    "startOffset": 51366,
+                    "endLine": 683,
                     "endColumn": 12,
-                    "endOffset": 51313
+                    "endOffset": 51726
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -4745,12 +4935,12 @@
             },
             {
                 "to": {
-                    "startLine": 674,
+                    "startLine": 684,
                     "startColumn": 4,
-                    "startOffset": 51318,
-                    "endLine": 676,
+                    "startOffset": 51731,
+                    "endLine": 686,
                     "endColumn": 12,
-                    "endOffset": 51530
+                    "endOffset": 51943
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -4766,12 +4956,12 @@
             },
             {
                 "to": {
-                    "startLine": 677,
+                    "startLine": 687,
                     "startColumn": 4,
-                    "startOffset": 51535,
-                    "endLine": 681,
+                    "startOffset": 51948,
+                    "endLine": 691,
                     "endColumn": 12,
-                    "endOffset": 51917
+                    "endOffset": 52330
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -4787,11 +4977,11 @@
             },
             {
                 "to": {
-                    "startLine": 682,
+                    "startLine": 692,
                     "startColumn": 4,
-                    "startOffset": 51922,
+                    "startOffset": 52335,
                     "endColumn": 120,
-                    "endOffset": 52038
+                    "endOffset": 52451
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -4806,12 +4996,12 @@
             },
             {
                 "to": {
-                    "startLine": 683,
+                    "startLine": 693,
                     "startColumn": 4,
-                    "startOffset": 52043,
-                    "endLine": 685,
+                    "startOffset": 52456,
+                    "endLine": 695,
                     "endColumn": 12,
-                    "endOffset": 52237
+                    "endOffset": 52650
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -4827,12 +5017,12 @@
             },
             {
                 "to": {
-                    "startLine": 686,
+                    "startLine": 696,
                     "startColumn": 4,
-                    "startOffset": 52242,
-                    "endLine": 692,
+                    "startOffset": 52655,
+                    "endLine": 702,
                     "endColumn": 12,
-                    "endOffset": 52699
+                    "endOffset": 53112
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -4848,12 +5038,12 @@
             },
             {
                 "to": {
-                    "startLine": 693,
+                    "startLine": 703,
                     "startColumn": 4,
-                    "startOffset": 52704,
-                    "endLine": 697,
+                    "startOffset": 53117,
+                    "endLine": 707,
                     "endColumn": 12,
-                    "endOffset": 53078
+                    "endOffset": 53491
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -4869,11 +5059,11 @@
             },
             {
                 "to": {
-                    "startLine": 698,
+                    "startLine": 708,
                     "startColumn": 4,
-                    "startOffset": 53083,
+                    "startOffset": 53496,
                     "endColumn": 121,
-                    "endOffset": 53200
+                    "endOffset": 53613
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -4888,11 +5078,11 @@
             },
             {
                 "to": {
-                    "startLine": 699,
+                    "startLine": 709,
                     "startColumn": 4,
-                    "startOffset": 53205,
+                    "startOffset": 53618,
                     "endColumn": 115,
-                    "endOffset": 53316
+                    "endOffset": 53729
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -4907,11 +5097,11 @@
             },
             {
                 "to": {
-                    "startLine": 700,
+                    "startLine": 710,
                     "startColumn": 4,
-                    "startOffset": 53321,
+                    "startOffset": 53734,
                     "endColumn": 99,
-                    "endOffset": 53416
+                    "endOffset": 53829
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -4926,11 +5116,11 @@
             },
             {
                 "to": {
-                    "startLine": 701,
+                    "startLine": 711,
                     "startColumn": 4,
-                    "startOffset": 53421,
+                    "startOffset": 53834,
                     "endColumn": 114,
-                    "endOffset": 53531
+                    "endOffset": 53944
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -4945,11 +5135,11 @@
             },
             {
                 "to": {
-                    "startLine": 702,
+                    "startLine": 712,
                     "startColumn": 4,
-                    "startOffset": 53536,
+                    "startOffset": 53949,
                     "endColumn": 103,
-                    "endOffset": 53635
+                    "endOffset": 54048
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -4964,11 +5154,11 @@
             },
             {
                 "to": {
-                    "startLine": 703,
+                    "startLine": 713,
                     "startColumn": 4,
-                    "startOffset": 53640,
+                    "startOffset": 54053,
                     "endColumn": 95,
-                    "endOffset": 53731
+                    "endOffset": 54144
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -4983,11 +5173,11 @@
             },
             {
                 "to": {
-                    "startLine": 704,
+                    "startLine": 714,
                     "startColumn": 4,
-                    "startOffset": 53736,
+                    "startOffset": 54149,
                     "endColumn": 87,
-                    "endOffset": 53819
+                    "endOffset": 54232
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -5002,11 +5192,11 @@
             },
             {
                 "to": {
-                    "startLine": 705,
+                    "startLine": 715,
                     "startColumn": 4,
-                    "startOffset": 53824,
+                    "startOffset": 54237,
                     "endColumn": 91,
-                    "endOffset": 53911
+                    "endOffset": 54324
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -5021,11 +5211,11 @@
             },
             {
                 "to": {
-                    "startLine": 706,
+                    "startLine": 716,
                     "startColumn": 4,
-                    "startOffset": 53916,
+                    "startOffset": 54329,
                     "endColumn": 113,
-                    "endOffset": 54025
+                    "endOffset": 54438
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",
@@ -5040,11 +5230,11 @@
             },
             {
                 "to": {
-                    "startLine": 707,
+                    "startLine": 717,
                     "startColumn": 4,
-                    "startOffset": 54030,
+                    "startOffset": 54443,
                     "endColumn": 102,
-                    "endOffset": 54128
+                    "endOffset": 54541
                 },
                 "from": {
                     "file": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\values\\values.xml",

@@ -7,6 +7,7 @@ package com.sample.hrv;
         import android.content.Intent;
         import android.content.IntentFilter;
         import android.content.ServiceConnection;
+        import android.net.Uri;
         import android.os.Bundle;
         import android.os.IBinder;
         import android.support.v7.app.ActionBarActivity;
@@ -27,6 +28,13 @@ package com.sample.hrv;
         import static com.sample.hrv.R.id.uuid;
         import static com.sample.hrv.R.string.no_data;
 
+        import net.wimpi.modbus.Modbus;
+        import net.wimpi.modbus.net.TCPConnectionHandler;
+        import net.wimpi.modbus.net.TCPSlaveConnection;
+        import net.wimpi.modbus.net.ModbusTCPListener;
+        import net.wimpi.modbus.procimg.*;
+        import net.wimpi.modbus.ModbusCoupler;
+
 
 public class setupActivity extends /*ActionBar*/Activity {
 
@@ -35,6 +43,8 @@ public class setupActivity extends /*ActionBar*/Activity {
     public static final String EXTRAS_DEVICE_ADDRESS = "DEVICE_ADDRESS";
     private String deviceAddress;
     private BleService bleService;
+    private ModbusService modbusService;
+    private String hrTransfer;
 
     private final ServiceConnection serviceConnection = new ServiceConnection() {
 
@@ -63,11 +73,11 @@ public class setupActivity extends /*ActionBar*/Activity {
        // getSupportActionBar().setTitle(R.string.title_devices);
 
         final Intent intent = getIntent();
+       // final Intent modbusServiceIntent = getIntent();
         setContentView(R.layout.activity_setup);
         deviceAddress = intent.getStringExtra(EXTRAS_DEVICE_ADDRESS);
 
         dataField = (TextView) findViewById(R.id.data_value);
-
 
 
         final Intent gattServiceIntent = new Intent(this, BleService.class);
@@ -95,6 +105,7 @@ public class setupActivity extends /*ActionBar*/Activity {
         }
         );
 
+        //registerReceiver(gattUpdateReceiver,makeGattUpdateIntentFilter());
 
     }
 
@@ -102,9 +113,15 @@ public class setupActivity extends /*ActionBar*/Activity {
         super.onResume();
 
         heartRateField = (TextView) findViewById(R.id.heartrate_value);
-
-
         registerReceiver(gattUpdateReceiver, makeGattUpdateIntentFilter());
+
+        final Intent modbusServiceIntent = new Intent(this, ModbusService.class);
+        this.startService(modbusServiceIntent);
+     //   modbusServiceIntent = new Intent(setupActivity.this, ModbusService.class);
+
+       // modbusService.onHandleIntent(modbusServiceIntent);
+
+
 
     }
 

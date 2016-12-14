@@ -276,12 +276,13 @@ public class DeviceServicesActivity extends Activity {
     @Override
     protected void onPause() {
         super.onPause();
-        unregisterReceiver(gattUpdateReceiver);
+      //  unregisterReceiver(gattUpdateReceiver);
     }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
+        unregisterReceiver(gattUpdateReceiver);
         unbindService(serviceConnection);
         bleService = null;
     }

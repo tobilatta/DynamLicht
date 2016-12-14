@@ -2,6 +2,7 @@ package com.sample.hrv;
 
 import android.app.Activity;
 import android.app.ListActivity;
+import android.os.CountDownTimer;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 
@@ -11,6 +12,14 @@ import net.wimpi.modbus.net.TCPSlaveConnection;
 import net.wimpi.modbus.net.ModbusTCPListener;
 import net.wimpi.modbus.procimg.*;
 import net.wimpi.modbus.ModbusCoupler;
+
+import com.sample.hrv.DeviceScanActivity;
+import com.sample.hrv.adapters.BleDevicesAdapter;
+import com.sample.hrv.sensor.BleHeartRateSensor;
+import com.sample.hrv.DeviceServicesActivity;
+import static android.R.attr.data;
+
+import static java.util.logging.Logger.global;
 
 
 public class setupModbus extends Activity {
@@ -37,10 +46,9 @@ public class setupModbus extends Activity {
            /* spi.addDigitalOut(new SimpleDigitalOut(true));
 
 */
-            spi.addRegister(new SimpleRegister(0));
-            spi.addRegister(new SimpleRegister(1));
-            spi.addRegister(new SimpleRegister(0));
-           // spi.addInputRegister(new SimpleInputRegister(45));
+            spi.addRegister(new SimpleRegister(15));
+/*            spi.addRegister(new SimpleRegister(0));
+            spi.addRegister(new SimpleRegister(0));*/
 
             //set image on coupler
             ModbusCoupler.getReference().setProcessImage(spi);
@@ -52,6 +60,20 @@ public class setupModbus extends Activity {
             listener = new ModbusTCPListener(3);
             listener.setPort(port);
             listener.start();
+
+            new CountDownTimer(500, 100) {
+                public void onFinish() {
+
+                    SimpleProcessImage spi = null;
+                    spi = new SimpleProcessImage();
+                    spi.addRegister(new SimpleRegister(0));
+                    ModbusCoupler.getReference().setProcessImage(spi);
+
+                }
+                public void onTick(long millisUntilFinished) {
+
+                }
+            }.start();
 
         } catch (Exception ex) {
             ex.printStackTrace();

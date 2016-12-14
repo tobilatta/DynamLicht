@@ -315,6 +315,16 @@ int id up 0x7f0a001f
 int id useLogo 0x7f0a000c
 int id uuid 0x7f0a0050
 int id withText 0x7f0a0015
+int integer BLUE 0x7f070001
+int integer DIMMED_BLUE 0x7f070002
+int integer DIMMED_GREEN 0x7f070003
+int integer DIMMED_RED 0x7f070004
+int integer DIMMED_WHITE 0x7f070005
+int integer FULL_OFF 0x7f070006
+int integer FULL_ON 0x7f070007
+int integer GREEN 0x7f070008
+int integer RED 0x7f070009
+int integer WHITE 0x7f07000a
 int integer abc_max_action_buttons 0x7f070000
 int layout abc_action_bar_decor 0x7f030000
 int layout abc_action_bar_decor_include 0x7f030001

@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_cab_background_bottom_holo_dark.9.png",
-        "source": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_cab_background_bottom_holo_dark.9.png"
-    },
-    {
         "merged": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_list_divider_holo_light.9.png",
         "source": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_list_divider_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_cab_background_bottom_holo_dark.9.png",
+        "source": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_cab_background_bottom_holo_dark.9.png"
     },
     {
         "merged": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_textfield_search_default_holo_dark.9.png",

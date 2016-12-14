@@ -65,6 +65,10 @@ limitations under the License.
             android:enabled="true" />
 
         <activity android:name="com.sample.hrv.setupModbus" />
+
+        <service
+            android:name="com.sample.hrv.ModbusService"
+            android:exported="false" />
     </application>
 
 </manifest><!--

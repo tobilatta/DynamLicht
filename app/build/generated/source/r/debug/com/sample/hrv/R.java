@@ -850,6 +850,16 @@ containing a value of this type.
         public static final int withText=0x7f0a0015;
     }
     public static final class integer {
+        public static final int BLUE=0x7f070001;
+        public static final int DIMMED_BLUE=0x7f070002;
+        public static final int DIMMED_GREEN=0x7f070003;
+        public static final int DIMMED_RED=0x7f070004;
+        public static final int DIMMED_WHITE=0x7f070005;
+        public static final int FULL_OFF=0x7f070006;
+        public static final int FULL_ON=0x7f070007;
+        public static final int GREEN=0x7f070008;
+        public static final int RED=0x7f070009;
+        public static final int WHITE=0x7f07000a;
         public static final int abc_max_action_buttons=0x7f070000;
     }
     public static final class layout {

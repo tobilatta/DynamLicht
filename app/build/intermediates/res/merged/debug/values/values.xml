@@ -148,6 +148,16 @@
     <item name="action_menu_divider" type="id"/>
     <item name="action_menu_presenter" type="id"/>
     <item name="home" type="id"/>
+    <integer name="BLUE">8</integer>
+    <integer name="DIMMED_BLUE">128</integer>
+    <integer name="DIMMED_GREEN">64</integer>
+    <integer name="DIMMED_RED">32</integer>
+    <integer name="DIMMED_WHITE">16</integer>
+    <integer name="FULL_OFF">0</integer>
+    <integer name="FULL_ON">15</integer>
+    <integer name="GREEN">4</integer>
+    <integer name="RED">2</integer>
+    <integer name="WHITE">1</integer>
     <integer name="abc_max_action_buttons">2</integer>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_up_description">Navigate up</string>

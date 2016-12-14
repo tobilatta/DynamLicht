@@ -8,12 +8,12 @@
         "source": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ic_ab_back_holo_light.png",
-        "source": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_ic_ab_back_holo_light.png"
-    },
-    {
         "merged": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_menu_dropdown_panel_holo_light.9.png",
         "source": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_menu_dropdown_panel_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ic_ab_back_holo_light.png",
+        "source": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_ic_ab_back_holo_light.png"
     },
     {
         "merged": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_spinner_ab_default_holo_light.9.png",
@@ -88,12 +88,12 @@
         "source": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_ic_menu_share_holo_light.png"
     },
     {
-        "merged": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_list_focused_holo.9.png",
-        "source": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_list_focused_holo.9.png"
-    },
-    {
         "merged": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_menu_dropdown_panel_holo_dark.9.png",
         "source": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_menu_dropdown_panel_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_list_focused_holo.9.png",
+        "source": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_list_focused_holo.9.png"
     },
     {
         "merged": "C:\\Users\\Tobi\\Documents\\GitHub\\DynLicht\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_menu_hardkey_panel_holo_light.9.png",
