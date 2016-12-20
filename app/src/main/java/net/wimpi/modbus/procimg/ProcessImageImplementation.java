@@ -54,7 +54,7 @@ public interface ProcessImageImplementation extends ProcessImage {
    *
    * @throws IllegalAddressException if the reference is invalid.
    */
-  public void setDigitalOut(int ref, DigitalOut _do)
+  void setDigitalOut(int ref, DigitalOut _do)
       throws IllegalAddressException;
 
   /**
@@ -63,7 +63,7 @@ public interface ProcessImageImplementation extends ProcessImage {
    * @param _do the <tt>DigitalOut</tt> instance to be
    *        added.
    */
-  public void addDigitalOut(DigitalOut _do);
+  void addDigitalOut(DigitalOut _do);
 
   /**
    * Removes a given <tt>DigitalOut</tt> instance.
@@ -71,7 +71,7 @@ public interface ProcessImageImplementation extends ProcessImage {
    * @param _do the <tt>DigitalOut</tt> instance to be
    *        removed.
    */
-  public void removeDigitalOut(DigitalOut _do);
+  void removeDigitalOut(DigitalOut _do);
 
   /**
    * Sets a new <tt>DigitalIn</tt> instance at the
@@ -83,7 +83,7 @@ public interface ProcessImageImplementation extends ProcessImage {
    *
    * @throws IllegalAddressException if the reference is invalid.
    */
-  public void setDigitalIn(int ref, DigitalIn di)
+  void setDigitalIn(int ref, DigitalIn di)
       throws IllegalAddressException;
 
   /**
@@ -92,7 +92,7 @@ public interface ProcessImageImplementation extends ProcessImage {
    * @param di the <tt>DigitalIn</tt> instance to be
    *        added.
    */
-  public void addDigitalIn(DigitalIn di);
+  void addDigitalIn(DigitalIn di);
 
   /**
    * Removes a given <tt>DigitalIn</tt> instance.
@@ -100,7 +100,7 @@ public interface ProcessImageImplementation extends ProcessImage {
    * @param di the <tt>DigitalIn</tt> instance to be
    *        removed.
    */
-  public void removeDigitalIn(DigitalIn di);
+  void removeDigitalIn(DigitalIn di);
 
   /**
    * Sets a new <tt>InputRegister</tt> instance at the
@@ -112,7 +112,7 @@ public interface ProcessImageImplementation extends ProcessImage {
    *
    * @throws IllegalAddressException if the reference is invalid.
    */
-  public void setInputRegister(int ref, InputRegister reg)
+  void setInputRegister(int ref, InputRegister reg)
       throws IllegalAddressException;
 
   /**
@@ -121,7 +121,7 @@ public interface ProcessImageImplementation extends ProcessImage {
    * @param reg the <tt>InputRegister</tt> instance to be
    *        added.
    */
-  public void addInputRegister(InputRegister reg);
+  void addInputRegister(InputRegister reg);
 
   /**
    * Removes a given <tt>InputRegister</tt> instance.
@@ -129,7 +129,7 @@ public interface ProcessImageImplementation extends ProcessImage {
    * @param reg the <tt>InputRegister</tt> instance to be
    *        removed.
    */
-  public void removeInputRegister(InputRegister reg);
+  void removeInputRegister(InputRegister reg);
 
   /**
    * Sets a new <tt>Register</tt> instance at the
@@ -141,7 +141,7 @@ public interface ProcessImageImplementation extends ProcessImage {
    *
    * @throws IllegalAddressException if the reference is invalid.
    */
-  public void setRegister(int ref, Register reg)
+  void setRegister(int ref, Register reg)
       throws IllegalAddressException;
 
   /**
@@ -150,7 +150,7 @@ public interface ProcessImageImplementation extends ProcessImage {
    * @param reg the <tt>Register</tt> instance to be
    *        added.
    */
-  public void addRegister(Register reg);
+  void addRegister(Register reg);
 
   /**
    * Removes a given <tt>Register</tt> instance.
@@ -158,24 +158,24 @@ public interface ProcessImageImplementation extends ProcessImage {
    * @param reg the <tt>Register</tt> instance to be
    *        removed.
    */
-  public void removeRegister(Register reg);
+  void removeRegister(Register reg);
 
   /**
    * Defines the set state (i.e. <b>true</b>) of
    * a digital input or output.
    */
-  public static final byte DIG_TRUE = 1;
+  byte DIG_TRUE = 1;
 
   /**
    * Defines the unset state (i.e. <b>false</b>) of
    * a digital input or output.
    */
-  public static final byte DIG_FALSE = 0;
+  byte DIG_FALSE = 0;
 
   /**
    * Defines the invalid state of
    * a digital input or output.
    */
-  public static final byte DIG_INVALID = -1;
+  byte DIG_INVALID = -1;
 
 }//ProcessImageImplementation

@@ -74,7 +74,7 @@ public class ModbusTCPListener
     m_ThreadPool = new ThreadPool(poolsize);
     try {
       m_Address = InetAddress.getByName("192.168.1.125");
-      /*m_Address = InetAddress.getLocalHost()*/;
+      /*m_Address = InetAddress.getLocalHost()*/
     } catch (UnknownHostException ex) {
 
     }

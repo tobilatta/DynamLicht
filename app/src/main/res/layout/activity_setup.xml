@@ -32,6 +32,26 @@
             android:layout_height="wrap_content"
             android:id="@+id/but_menu_modbus" />
 
+        <Button
+            android:text="Start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/but_menu_Start"/>
+
+        <Button
+            android:text="NightMode On"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/but_menu_nightOn"/>
+
+        <Button
+            android:text="NightMode Off"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/but_menu_nightOff"/>
+
+
+
 
     </LinearLayout>
 

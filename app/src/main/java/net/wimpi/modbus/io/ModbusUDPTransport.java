@@ -82,7 +82,7 @@ public class ModbusUDPTransport
     try {
       synchronized (m_ByteOut) {
         m_ByteOut.reset();
-        msg.writeTo((DataOutput) m_ByteOut);
+        msg.writeTo(m_ByteOut);
         m_Terminal.sendMessage(m_ByteOut.getBuffer());
       }
     } catch (Exception ex) {

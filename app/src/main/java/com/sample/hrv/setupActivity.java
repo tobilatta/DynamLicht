@@ -45,6 +45,8 @@ public class setupActivity extends /*ActionBar*/Activity {
     private BleService bleService;
     private ModbusService modbusService;
     private String hrTransfer;
+    public int heartValue;
+    public int lightValue;
 
     private final ServiceConnection serviceConnection = new ServiceConnection() {
 
@@ -75,8 +77,9 @@ public class setupActivity extends /*ActionBar*/Activity {
         final Intent intent = getIntent();
        // final Intent modbusServiceIntent = getIntent();
         setContentView(R.layout.activity_setup);
-        deviceAddress = intent.getStringExtra(EXTRAS_DEVICE_ADDRESS);
 
+
+        deviceAddress = intent.getStringExtra(EXTRAS_DEVICE_ADDRESS);
         dataField = (TextView) findViewById(R.id.data_value);
 
 
@@ -105,7 +108,51 @@ public class setupActivity extends /*ActionBar*/Activity {
         }
         );
 
-        //registerReceiver(gattUpdateReceiver,makeGattUpdateIntentFilter());
+        //Start Button
+        final Button startBut = (Button) findViewById(R.id.but_menu_Start);
+        startBut.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                final Intent intent = new Intent(setupActivity.this, ModbusService.class);
+                startService(intent);
+
+                }
+
+        }
+        );
+
+        final Button nightModeOn = (Button) findViewById(R.id.but_menu_nightOn);
+        nightModeOn.setOnClickListener(new View.OnClickListener() {
+                                           @Override
+                                           public void onClick(View view) {
+
+                                               SimpleProcessImage spi = null;
+                                               spi = new SimpleProcessImage();
+                                               spi.addRegister(new SimpleRegister(256));
+                                               ModbusCoupler.getReference().setProcessImage(spi);
+
+
+                                           }
+                                       }
+        );
+
+        final Button nightModeOff = (Button) findViewById(R.id.but_menu_nightOff);
+        nightModeOff.setOnClickListener(new View.OnClickListener() {
+                                           @Override
+                                           public void onClick(View view) {
+
+                                               SimpleProcessImage spi = null;
+                                               spi = new SimpleProcessImage();
+                                               spi.addRegister(new SimpleRegister(512));
+                                               ModbusCoupler.getReference().setProcessImage(spi);
+
+
+                                           }
+                                       }
+        );
+
+
 
     }
 
@@ -113,13 +160,16 @@ public class setupActivity extends /*ActionBar*/Activity {
         super.onResume();
 
         heartRateField = (TextView) findViewById(R.id.heartrate_value);
+       ////////////////////////////////////FÜR BETRIEB WIEDER REINNEHMEN///////////////////////////////////////
         registerReceiver(gattUpdateReceiver, makeGattUpdateIntentFilter());
+        //final Intent intent = new Intent(this, ModbusService.class);
+        //this.startService(intent);
+        ///////////////////////////////////////////////////////////////////////////////////////////////////////
 
-        final Intent modbusServiceIntent = new Intent(this, ModbusService.class);
-        this.startService(modbusServiceIntent);
-     //   modbusServiceIntent = new Intent(setupActivity.this, ModbusService.class);
 
-       // modbusService.onHandleIntent(modbusServiceIntent);
+
+
+
 
 
 
@@ -129,6 +179,7 @@ public class setupActivity extends /*ActionBar*/Activity {
         @Override
         public void onReceive(Context context, Intent intent) {
             final String action = intent.getAction();
+          //  final String cleared;
 
             if (BleService.ACTION_DATA_AVAILABLE.equals(action)) {
                 displayData(intent.getStringExtra(BleService.EXTRA_SERVICE_UUID), intent.getStringExtra(BleService.EXTRA_TEXT));
@@ -141,8 +192,10 @@ public class setupActivity extends /*ActionBar*/Activity {
         if (data != null) {
             if (uuid.equals(BleHeartRateSensor.getServiceUUIDString())) {
                 heartRateField.setText(data);
+                heartValue = BLEStringToInt(data);
             } else {
                 dataField.setText(data);
+                heartValue = BLEStringToInt(data);
             }
         }
     }
@@ -159,7 +212,9 @@ public class setupActivity extends /*ActionBar*/Activity {
     @Override
     protected void onPause() {
         super.onPause();
+      //////////////////////777WIEDER REINNEHMEN/////////////////////////////////
         unregisterReceiver(gattUpdateReceiver);
+        /////////////////////////////////////////////////////////////////////////
     }
 
     @Override
@@ -168,5 +223,15 @@ public class setupActivity extends /*ActionBar*/Activity {
         unbindService(serviceConnection);
         bleService = null;
     }
+
+
+    public int BLEStringToInt(String str){
+
+        return Integer.parseInt(str.replaceAll("\\D+","")) / 10;
+
+    }
+
 }
+
+
 

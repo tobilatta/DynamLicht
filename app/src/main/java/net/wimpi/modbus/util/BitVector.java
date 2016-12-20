@@ -150,9 +150,9 @@ public final class BitVector {
     index = translateIndex(index);
     //System.out.println("Get bit #" + index);
     return (
-        (m_Data[byteIndex(index)]
-        & (0x01 << bitIndex(index))) != 0
-        ) ? true : false;
+            (m_Data[byteIndex(index)]
+                    & (0x01 << bitIndex(index))) != 0
+    );
   }//getBit
 
 
@@ -230,8 +230,8 @@ public final class BitVector {
       int idx = doTranslateIndex(i);
       sbuf.append(
           ((((m_Data[byteIndex(idx)]
-          & (0x01 << bitIndex(idx))) != 0
-          ) ? true : false) ? '1' : '0')
+                  & (0x01 << bitIndex(idx))) != 0
+          )) ? '1' : '0')
       );
       if (((i + 1) % 8) == 0) {
         sbuf.append(" ");

@@ -178,11 +178,7 @@ public final class WriteCoilRequest
   public void readData(DataInput din)
       throws IOException {
     m_Reference = din.readUnsignedShort();
-    if (din.readByte() == Modbus.COIL_ON) {
-      m_Coil = true;
-    } else {
-      m_Coil = false;
-    }
+    m_Coil = din.readByte() == Modbus.COIL_ON;
     //skip last byte
     din.readByte();
   }//readData

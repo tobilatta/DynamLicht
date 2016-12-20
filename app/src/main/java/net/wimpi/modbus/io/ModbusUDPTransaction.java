@@ -154,9 +154,8 @@ public class ModbusUDPTransaction
     m_Retries = num;
   }//setRetries
 
-  public void execute() throws ModbusIOException,
-      ModbusSlaveException,
-      ModbusException {
+  public void execute() throws
+          ModbusException {
 
     //1. assert executeability
     assertExecutable();

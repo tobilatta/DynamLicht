@@ -51,7 +51,7 @@ public interface ModbusMessage
    * Sets the flag that marks this <tt>ModbusMessage</tt> as headless
    * (for serial transport).
    */
-  public void setHeadless();
+  void setHeadless();
 
   /**
    * Returns the transaction identifier of this
@@ -61,7 +61,7 @@ public interface ModbusMessage
    * <p>
    * @return the transaction identifier as <tt>int</tt>.
    */
-  public int getTransactionID();
+  int getTransactionID();
 
   /**
    * Returns the protocol identifier of this
@@ -71,7 +71,7 @@ public interface ModbusMessage
    * <p>
    * @return the protocol identifier as <tt>int</tt>.
    */
-  public int getProtocolID();
+  int getProtocolID();
 
   /**
    * Returns the length of the data appended
@@ -79,7 +79,7 @@ public interface ModbusMessage
    * <p>
    * @return the data length as <tt>int</tt>.
    */
-  public int getDataLength();
+  int getDataLength();
 
   /**
    * Returns the unit identifier of  this
@@ -89,7 +89,7 @@ public interface ModbusMessage
    * <p>
    * @return the unit identifier as <tt>int</tt>.
    */
-  public int getUnitID();
+  int getUnitID();
 
   /**
    * Returns the function code of this
@@ -104,7 +104,7 @@ public interface ModbusMessage
    *
    * @see net.wimpi.modbus.Modbus
    */
-  public int getFunctionCode();
+  int getFunctionCode();
 
   /**
    * Writes this <tt>ModbusMessage</tt> to the
@@ -141,7 +141,7 @@ public interface ModbusMessage
    *         containing a hexadecimal series of bytes.
    *
    */
-  public String getHexMessage();
+  String getHexMessage();
 
   /**
    * Returns the total length this <tt>ModbusMessage</tt>.

@@ -1,6 +1,15 @@
 package com.sample.hrv;
 
 import android.app.IntentService;
+import android.app.Service;
+import android.os.CountDownTimer;
+import android.os.HandlerThread;
+import android.os.Handler;
+import android.os.IBinder;
+import android.os.Looper;
+import android.os.Message;
+import android.os.Process;
+import android.util.Log;
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;
 import android.content.Intent;
@@ -24,6 +33,7 @@ import net.wimpi.modbus.procimg.*;
 import net.wimpi.modbus.ModbusCoupler;
 
 import static android.R.attr.action;
+import static android.R.attr.delay;
 import static android.content.ContentValues.TAG;
 
 /**
@@ -33,36 +43,119 @@ import static android.content.ContentValues.TAG;
  * TODO: Customize class - update intent actions, extra parameters and static
  * helper methods.
  */
-public class ModbusService extends IntentService {
+public class ModbusService extends Service {
 
 
-    public ModbusService() {
+    /*public ModbusService() {
         super("ModbusService");
-    }
+    }*/
     private BleService bleService;
-    public static final String EXTRAS_DEVICE_ADDRESS = "DEVICE_ADDRESS";
+    private static final String TAG = "ModbusService";
+    private boolean isRunning = false;
     private String deviceAddress;
     int heartValue;
+    int old_heartValue;
+    int tmp_heartValue;
+    int lightValue;
 
-/*
-    private final ServiceConnection serviceConnection = new ServiceConnection() {
+    private Looper mServiceLooper;
+    private ServiceHandler mServiceHandler;
 
+    // Handler that receives messages from the thread
+    private final class ServiceHandler extends Handler {
+        public ServiceHandler(Looper looper) {
+            super(looper);
+        }
         @Override
-        public void onServiceConnected(ComponentName componentName, IBinder service) {
-            bleService = ((BleService.LocalBinder) service).getService();
-            if (!bleService.initialize()) {
-                Log.e(TAG, "Unable to initialize Bluetooth");
+        public void handleMessage(Message msg) {
+            // Normally we would do some work here, like download a file.
+            // For our sample, we just sleep for 5 seconds.
+            try {
+                Thread.sleep(2000);
+            } catch (InterruptedException e) {
+                // Restore interrupt status.
+                Thread.currentThread().interrupt();
+            }
+            // Stop the service using the startId, so that we don't stop
+            // the service in the middle of handling another job
+            stopSelf(msg.arg1);
+        }
+    }
+
+    public int onStartCommand(Intent intent, int flags, int startId) {
+        Log.i(TAG, "Service onStartCommand");
+
+
+       new Thread(){
+
+            public void run() {
+                workRoutine();
+            }
+
+       }.start();
+
+        return Service.START_STICKY;
+    }
+
+    public IBinder onBind(Intent arg0) {
+        Log.i(TAG, "Service onBind");
+        return null;
+    }
+
+    public void onDestroy(){
+
+        unregisterReceiver(gattUpdateReceiver);
+        isRunning = false;
+        Log.i(TAG, "Service onDestroy");
+
+    }
+
+    public void onCreate() {
+
+        Log.i(TAG, "Service onCreate");
+        isRunning = true;
+
+        //Connection to BleService
+        registerReceiver(gattUpdateReceiver,makeGattUpdateIntentFilter());
+
+    }
+
+    public void workRoutine() {
+        while(true){
+            tmp_heartValue = heartValue;
+
+            if (tmp_heartValue != old_heartValue) {
+
+
+                if (tmp_heartValue >= 100 && tmp_heartValue < 200) {
+                    //   GREEN
+                    lightValue = 4;
+                } else if (tmp_heartValue < 100 && tmp_heartValue > 0) {
+                    //   RED
+                    lightValue = 2;
+                } else {
+                    //   WHITE
+                    lightValue = 1;
                 }
-            // Automatically connects to the device upon successful start-up initialization.
-            bleService.connect(deviceAddress);
-        }
+////////////////////////////////////WIEDER REINNEHMEN/////////////////////////////
+            }
+            SimpleProcessImage spi = null;
+            spi = new SimpleProcessImage();
+            spi.addRegister(new SimpleRegister(lightValue));
+            ModbusCoupler.getReference().setProcessImage(spi);
+            old_heartValue = tmp_heartValue;
 
-        @Override
-        public void onServiceDisconnected(ComponentName componentName) {
-            bleService = null;
+            if (isRunning) {
+               // Log.i(TAG, "Service running");
+            }
+
+
         }
-    };
-*/
+    }
+
+
+//////////////////////////////////////////////////////ALTER TEIL////////////////////////////////
+/*
     public void onCreate(){
         super.onCreate();
         registerReceiver(gattUpdateReceiver,makeGattUpdateIntentFilter());
@@ -72,39 +165,55 @@ public class ModbusService extends IntentService {
     protected void onHandleIntent(Intent intent) {
 
 
-/*        final Intent gattServiceIntent = new Intent(this, BleService.class);
-        bindService(gattServiceIntent, serviceConnection, BIND_AUTO_CREATE);*/
+        final Intent gattServiceIntent = new Intent(this, BleService.class);
+        bindService(gattServiceIntent, serviceConnection, BIND_AUTO_CREATE);
 
        // registerReceiver(gattUpdateReceiver,makeGattUpdateIntentFilter());
 
+      */
+/*  android.os.Debug.waitForDebugger();
+
         if (intent != null) {
-          //  final String action = intent.getAction();
 
+            tmp_heartValue = heartValue;
 
-            int lightValue;
-            if(heartValue >= 100 && heartValue < 200){
-             //   lightValue = R.integer.GREEN;
-                lightValue = 4;
+            if (tmp_heartValue != old_heartValue) {
+
+                int lightValue;
+                if (tmp_heartValue >= 100 && tmp_heartValue < 200) {
+                    //   GREEN
+                    lightValue = 4;
+                } else if (tmp_heartValue < 100 && tmp_heartValue > 0) {
+                    //   RED
+                    lightValue = 2;
+                } else {
+                    //   WHITE
+                    lightValue = 1;
+                }
+////////////////////////////////////WIEDER REINNEHMEN/////////////////////////////
+
+                SimpleProcessImage spi = null;
+                spi = new SimpleProcessImage();
+                spi.addRegister(new SimpleRegister(lightValue));
+                ModbusCoupler.getReference().setProcessImage(spi);
+                old_heartValue = tmp_heartValue;
+
+////////////////////////////////////WIEDER REINNEHMEN/////////////////////////////
             }
-            else if(heartValue < 100 && heartValue > 0){
-             //   lightValue = R.integer.RED;
-                lightValue = 2;
-            }
-
-            else{
-             //   lightValue = R.integer.WHITE;
-                lightValue = 1;
-            }
-
-            SimpleProcessImage spi = null;
-            spi = new SimpleProcessImage();
-            spi.addRegister(new SimpleRegister(lightValue));
-            ModbusCoupler.getReference().setProcessImage(spi);
-
-
-
         }
     }
+
+
+
+
+
+    public void onDestroy() {
+        unregisterReceiver(gattUpdateReceiver);
+    }
+
+
+
+*/
 
     private final BroadcastReceiver gattUpdateReceiver = new BroadcastReceiver() {
         @Override
@@ -112,8 +221,7 @@ public class ModbusService extends IntentService {
             final String action = intent.getAction();
 
             if (BleService.ACTION_DATA_AVAILABLE.equals(action)) {
-
-                heartValue = Integer.valueOf(intent.getStringExtra(BleService.EXTRA_TEXT));
+                displayData(intent.getStringExtra(BleService.EXTRA_SERVICE_UUID), intent.getStringExtra(BleService.EXTRA_TEXT));
 
             }
 
@@ -129,7 +237,24 @@ public class ModbusService extends IntentService {
         return intentFilter;
     }
 
-    public void onDestroy() {
-        unregisterReceiver(gattUpdateReceiver);
+
+    public void displayData(String uuid, String data) {
+        if (data != null) {
+            if (uuid.equals(BleHeartRateSensor.getServiceUUIDString())) {
+
+                heartValue = BLEStringToInt(data) ;
+            } else {
+
+                heartValue = BLEStringToInt(data);
+            }
+        }
+    }
+
+    public int BLEStringToInt(String str){
+
+        return Integer.parseInt(str.replaceAll("\\D+","")) / 10;
+
     }
 }
+
+

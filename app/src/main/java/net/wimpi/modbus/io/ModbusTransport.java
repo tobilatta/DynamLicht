@@ -56,7 +56,7 @@ public interface ModbusTransport {
    * @throws IOException if a stream
    *         cannot be closed properly.
    */
-  public void close() throws IOException;
+  void close() throws IOException;
 
   /**
    * Writes a <tt<ModbusMessage</tt> to the
@@ -67,7 +67,7 @@ public interface ModbusTransport {
    *         written properly to the raw output stream of
    *         this <tt>ModbusTransport</tt>.
    */
-  public void writeMessage(ModbusMessage msg) throws ModbusIOException;
+  void writeMessage(ModbusMessage msg) throws ModbusIOException;
 
   /**
    * Reads a <tt>ModbusRequest</tt> from the
@@ -78,7 +78,7 @@ public interface ModbusTransport {
    *         read properly from the raw input stream of
    *         this <tt>ModbusTransport</tt>.
    */
-  public ModbusRequest readRequest() throws ModbusIOException;
+  ModbusRequest readRequest() throws ModbusIOException;
 
   /**
    * Reads a <tt>ModbusResponse</tt> from the
@@ -89,6 +89,6 @@ public interface ModbusTransport {
    *         read properly from the raw input stream of
    *         this <tt>ModbusTransport</tt>.
    */
-  public ModbusResponse readResponse() throws ModbusIOException;
+  ModbusResponse readResponse() throws ModbusIOException;
 
 }//class ModbusTransport

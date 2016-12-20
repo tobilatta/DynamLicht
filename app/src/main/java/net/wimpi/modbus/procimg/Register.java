@@ -53,7 +53,7 @@ public interface Register
    *
    * @param v the value as unsigned short (<tt>int</tt>).
    */
-  public void setValue(int v);
+  void setValue(int v);
 
   /**
    * Sets the content of this register from the given
@@ -61,7 +61,7 @@ public interface Register
    *
    * @param s the value as <tt>short</tt>.
    */
-  public void setValue(short s);
+  void setValue(short s);
 
   /**
    * Sets the content of this register from the given
@@ -69,6 +69,6 @@ public interface Register
    *
    * @param bytes the raw data as <tt>byte[]</tt>.
    */
-  public void setValue(byte[] bytes);
+  void setValue(byte[] bytes);
 
 }//interface Register

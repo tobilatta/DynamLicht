@@ -52,7 +52,7 @@ public interface NonWordDataHandler {
    *
    * @return the raw data as <tt>byte[]</tt>.
    */
-  public byte[] getData();
+  byte[] getData();
 
   /**
    * Reads the non-word raw data based on an arbitrary
@@ -65,8 +65,8 @@ public interface NonWordDataHandler {
    * @throws IOException if I/O fails.
    * @throws EOFException if the stream ends before all data is read.
    */
-  public void readData(DataInput in, int reference, int count)
-      throws IOException, EOFException;
+  void readData(DataInput in, int reference, int count)
+      throws IOException;
 
   /**
    * Returns the word count of the data.
@@ -75,7 +75,7 @@ public interface NonWordDataHandler {
    *
    * @return the number of words the data consists of.
    */
-  public int getWordCount();
+  int getWordCount();
 
   /**
    * Commits the data if it has been read into an intermediate
@@ -87,7 +87,7 @@ public interface NonWordDataHandler {
    *         valid for the read/write multiple registers commands
    *         otherwise.
    */
-  public int commitUpdate();
+  int commitUpdate();
 
   /**
    * Prepares the raw data, putting it together from a
@@ -98,6 +98,6 @@ public interface NonWordDataHandler {
    * @param reference to specify the offset as <tt>int</tt>.
    * @param count to sepcify the amount of bytes as <tt>int</tt>.
    */
-  public void prepareData(int reference, int count);
+  void prepareData(int reference, int count);
 
 }//NonWordDataHandler

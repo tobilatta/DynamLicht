@@ -102,7 +102,7 @@ public class ModbusTCPTransport
   public void writeMessage(ModbusMessage msg)
       throws ModbusIOException {
     try {
-      msg.writeTo((DataOutput) m_Output);
+      msg.writeTo(m_Output);
       m_Output.flush();
       //write more sophisticated exception handling
     } catch (Exception ex) {

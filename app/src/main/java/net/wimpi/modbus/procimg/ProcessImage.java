@@ -58,7 +58,7 @@ public interface ProcessImage {
    * @throws IllegalAddressException if the range from offset
    *         to offset+count is non existant.
    */
-  public DigitalOut[] getDigitalOutRange(int offset, int count)
+  DigitalOut[] getDigitalOutRange(int offset, int count)
       throws IllegalAddressException;
 
   /**
@@ -72,7 +72,7 @@ public interface ProcessImage {
    *
    * @throws IllegalAddressException if the reference is invalid.
    */
-  public DigitalOut getDigitalOut(int ref)
+  DigitalOut getDigitalOut(int ref)
       throws IllegalAddressException;
 
   /**
@@ -81,7 +81,7 @@ public interface ProcessImage {
    *
    * @return the number of digital outs as <tt>int</tt>.
    */
-  public int getDigitalOutCount();
+  int getDigitalOutCount();
 
   /**
    * Returns a range of <tt>DigitalIn</tt> instances.
@@ -95,7 +95,7 @@ public interface ProcessImage {
    * @throws IllegalAddressException if the range from offset
    *         to offset+count is non existant.
    */
-  public DigitalIn[] getDigitalInRange(int offset, int count)
+  DigitalIn[] getDigitalInRange(int offset, int count)
       throws IllegalAddressException;
 
   /**
@@ -109,7 +109,7 @@ public interface ProcessImage {
    *
    * @throws IllegalAddressException if the reference is invalid.
    */
-  public DigitalIn getDigitalIn(int ref)
+  DigitalIn getDigitalIn(int ref)
       throws IllegalAddressException;
 
   /**
@@ -118,7 +118,7 @@ public interface ProcessImage {
    *
    * @return the number of digital ins as <tt>int</tt>.
    */
-  public int getDigitalInCount();
+  int getDigitalInCount();
 
   /**
    * Returns a range of <tt>InputRegister</tt> instances.
@@ -133,7 +133,7 @@ public interface ProcessImage {
    * @throws IllegalAddressException if the range from offset
    *         to offset+count is non existant.
    */
-  public InputRegister[] getInputRegisterRange(int offset, int count)
+  InputRegister[] getInputRegisterRange(int offset, int count)
       throws IllegalAddressException;
 
   /**
@@ -147,7 +147,7 @@ public interface ProcessImage {
    *
    * @throws IllegalAddressException if the reference is invalid.
    */
-  public InputRegister getInputRegister(int ref)
+  InputRegister getInputRegister(int ref)
       throws IllegalAddressException;
 
 
@@ -157,7 +157,7 @@ public interface ProcessImage {
    *
    * @return the number of input registers as <tt>int</tt>.
    */
-  public int getInputRegisterCount();
+  int getInputRegisterCount();
 
   /**
    * Returns a range of <tt>Register</tt> instances.
@@ -171,7 +171,7 @@ public interface ProcessImage {
    * @throws IllegalAddressException if the range from offset
    *         to offset+count is non existant.
    */
-  public Register[] getRegisterRange(int offset, int count)
+  Register[] getRegisterRange(int offset, int count)
       throws IllegalAddressException;
 
   /**
@@ -185,7 +185,7 @@ public interface ProcessImage {
    *
    * @throws IllegalAddressException if the reference is invalid.
    */
-  public Register getRegister(int ref)
+  Register getRegister(int ref)
       throws IllegalAddressException;
 
   /**
@@ -194,6 +194,6 @@ public interface ProcessImage {
    *
    * @return the number of registers as <tt>int</tt>.
    */
-  public int getRegisterCount();
+  int getRegisterCount();
 
 }//interface ProcessImage

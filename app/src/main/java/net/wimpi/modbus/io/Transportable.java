@@ -18,7 +18,7 @@ public interface Transportable {
    *
    * @return the number of bytes that will be written as <tt>int</tt>.
    */
-  public int getOutputLength();
+  int getOutputLength();
 
   /**
    * Writes this <tt>Transportable</tt> to the
@@ -27,7 +27,7 @@ public interface Transportable {
    * @param dout the <tt>DataOutput</tt> to write to.
    * @throws java.io.IOException if an I/O error occurs.
    */
-  public void writeTo(DataOutput dout)
+  void writeTo(DataOutput dout)
       throws IOException;
 
   /**
@@ -38,7 +38,7 @@ public interface Transportable {
    * @throws java.io.IOException if an I/O error occurs or the data
    *         is invalid.
    */
-  public void readFrom(DataInput din)
+  void readFrom(DataInput din)
       throws IOException;
 
 }//interface Transportable

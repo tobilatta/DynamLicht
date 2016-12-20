@@ -57,16 +57,18 @@ limitations under the License.
         <activity android:name=".DeviceScanActivity" />
         <activity android:name=".DeviceServicesActivity" />
         <activity android:name=".demo.DemoHeartRateSensorActivity" />
+        <activity android:name=".setupModbus" />
 
         <service
             android:name=".BleService"
             android:enabled="true" />
 
-        <activity android:name=".setupModbus" />
+
 
         <service
             android:name=".ModbusService"
-            android:exported="false"></service>
+            android:exported="false"
+            android:enabled="true"/>
     </application>
 
 </manifest><!--

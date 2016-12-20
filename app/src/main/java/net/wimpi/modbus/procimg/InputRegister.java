@@ -50,7 +50,7 @@ public interface InputRegister {
    *
    * @return the value as <tt>int</tt>.
    */
-  public int getValue();
+  int getValue();
 
   /**
    * Returns the content of this <tt>Register</tt> as
@@ -58,7 +58,7 @@ public interface InputRegister {
    *
    * @return the content as unsigned short (<tt>int</tt>).
    */
-  public int toUnsignedShort();
+  int toUnsignedShort();
 
   /**
    * Returns the content of this <tt>Register</tt> as
@@ -66,7 +66,7 @@ public interface InputRegister {
    *
    * @return the content as <tt>short</tt>.
    */
-  public short toShort();
+  short toShort();
 
   /**
    * Returns the content of this <tt>Register</tt>
@@ -74,6 +74,6 @@ public interface InputRegister {
    *
    * @return a <tt>byte[]</tt> with length 2.
    */
-  public byte[] toBytes();
+  byte[] toBytes();
 
 }//interface InputRegister

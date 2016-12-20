@@ -59,15 +59,14 @@ limitations under the License.
         <activity android:name="com.sample.hrv.DeviceScanActivity" />
         <activity android:name="com.sample.hrv.DeviceServicesActivity" />
         <activity android:name="com.sample.hrv.demo.DemoHeartRateSensorActivity" />
+        <activity android:name="com.sample.hrv.setupModbus" />
 
         <service
             android:name="com.sample.hrv.BleService"
             android:enabled="true" />
-
-        <activity android:name="com.sample.hrv.setupModbus" />
-
         <service
             android:name="com.sample.hrv.ModbusService"
+            android:enabled="true"
             android:exported="false" />
     </application>
 
