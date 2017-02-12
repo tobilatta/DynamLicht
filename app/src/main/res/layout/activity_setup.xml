@@ -32,13 +32,19 @@
             android:layout_height="wrap_content"
             android:id="@+id/but_menu_modbus" />
 
-        <Button
+        <!--<Button
             android:text="Start"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/but_menu_Start"/>
 
         <Button
+            android:text="Stop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/but_menu_Stop"/>-->
+
+        <!--<Button
             android:text="NightMode On"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -48,8 +54,24 @@
             android:text="NightMode Off"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/but_menu_nightOff"/>
+            android:id="@+id/but_menu_nightOff"/>-->
 
+        <ToggleButton
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/but_menu_onoff"
+            android:text="@string/menu_onoff"
+            android:textOff="HRMode : Off"
+            android:textOn="HRMode : On"
+            android:layout_gravity="center_horizontal"/>
+
+        <ToggleButton
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/but_menu_nightOnOff"
+            android:textOff="NightMode : Off"
+            android:textOn="NightMode : On"
+            android:layout_gravity="center_horizontal"/>
 
 
 

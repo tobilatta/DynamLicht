@@ -45,10 +45,6 @@ import static android.content.ContentValues.TAG;
  */
 public class ModbusService extends Service {
 
-
-    /*public ModbusService() {
-        super("ModbusService");
-    }*/
     private BleService bleService;
     private static final String TAG = "ModbusService";
     private boolean isRunning = false;
@@ -82,6 +78,11 @@ public class ModbusService extends Service {
         }
     }
 
+    //equivalent to onCreate method but for services.  workroutine is started and the
+    //service is declared as "STICKY" which means:
+    //when phone is down on system resources, it shuts down unnecessary applications and services
+    //After this service gets shut down and resource are available again, "STICKY" tells the OS to restart
+    //the service
     public int onStartCommand(Intent intent, int flags, int startId) {
         Log.i(TAG, "Service onStartCommand");
 
@@ -102,10 +103,18 @@ public class ModbusService extends Service {
         return null;
     }
 
+    //when application gets destroyed, all bits are set to 0
     public void onDestroy(){
-
-        unregisterReceiver(gattUpdateReceiver);
         isRunning = false;
+
+        SimpleProcessImage spi = null;
+        spi = new SimpleProcessImage();
+        spi.addRegister(new SimpleRegister(0));
+        ModbusCoupler.getReference().setProcessImage(spi);
+
+        //the ble receiver is shut down
+        unregisterReceiver(gattUpdateReceiver);
+
         Log.i(TAG, "Service onDestroy");
 
     }
@@ -121,9 +130,13 @@ public class ModbusService extends Service {
     }
 
     public void workRoutine() {
-        while(true){
+        while(isRunning){
+
+            //saving current heartValue for explicit work with one value
+
             tmp_heartValue = heartValue;
 
+            //and unnecessary rework,if the value stays the same
             if (tmp_heartValue != old_heartValue) {
 
 
@@ -137,16 +150,20 @@ public class ModbusService extends Service {
                     //   WHITE
                     lightValue = 1;
                 }
-////////////////////////////////////WIEDER REINNEHMEN/////////////////////////////
+
             }
+            //creating ProcessImage, that can receive/transmit single or multiple bits/values
             SimpleProcessImage spi = null;
             spi = new SimpleProcessImage();
+            //here a register needs to be sended, so the fitting method is called
             spi.addRegister(new SimpleRegister(lightValue));
+            //via ModbusCoupler-class the ProcessImage is set and sended
             ModbusCoupler.getReference().setProcessImage(spi);
+            //current heartValue is switched to old value
             old_heartValue = tmp_heartValue;
 
             if (isRunning) {
-               // Log.i(TAG, "Service running");
+               Log.i(TAG, "Service running");
             }
 
 
@@ -154,67 +171,9 @@ public class ModbusService extends Service {
     }
 
 
-//////////////////////////////////////////////////////ALTER TEIL////////////////////////////////
-/*
-    public void onCreate(){
-        super.onCreate();
-        registerReceiver(gattUpdateReceiver,makeGattUpdateIntentFilter());
-    }
-
-    @Override
-    protected void onHandleIntent(Intent intent) {
 
 
-        final Intent gattServiceIntent = new Intent(this, BleService.class);
-        bindService(gattServiceIntent, serviceConnection, BIND_AUTO_CREATE);
-
-       // registerReceiver(gattUpdateReceiver,makeGattUpdateIntentFilter());
-
-      */
-/*  android.os.Debug.waitForDebugger();
-
-        if (intent != null) {
-
-            tmp_heartValue = heartValue;
-
-            if (tmp_heartValue != old_heartValue) {
-
-                int lightValue;
-                if (tmp_heartValue >= 100 && tmp_heartValue < 200) {
-                    //   GREEN
-                    lightValue = 4;
-                } else if (tmp_heartValue < 100 && tmp_heartValue > 0) {
-                    //   RED
-                    lightValue = 2;
-                } else {
-                    //   WHITE
-                    lightValue = 1;
-                }
-////////////////////////////////////WIEDER REINNEHMEN/////////////////////////////
-
-                SimpleProcessImage spi = null;
-                spi = new SimpleProcessImage();
-                spi.addRegister(new SimpleRegister(lightValue));
-                ModbusCoupler.getReference().setProcessImage(spi);
-                old_heartValue = tmp_heartValue;
-
-////////////////////////////////////WIEDER REINNEHMEN/////////////////////////////
-            }
-        }
-    }
-
-
-
-
-
-    public void onDestroy() {
-        unregisterReceiver(gattUpdateReceiver);
-    }
-
-
-
-*/
-
+    //broadcast receiver for bluetooth data that is spread from BleService.class
     private final BroadcastReceiver gattUpdateReceiver = new BroadcastReceiver() {
         @Override
         public void onReceive(Context context, Intent intent) {
@@ -238,6 +197,7 @@ public class ModbusService extends Service {
     }
 
 
+    //handling the received data and transforming it from String to integer value
     public void displayData(String uuid, String data) {
         if (data != null) {
             if (uuid.equals(BleHeartRateSensor.getServiceUUIDString())) {
@@ -250,8 +210,12 @@ public class ModbusService extends Service {
         }
     }
 
+    //explicit method is need for correct transformation of string to integer value
     public int BLEStringToInt(String str){
 
+        //from the string all dots are replaced with "", meaning they get removed
+        //value would start from 123.0 bpm to 1230 bpm (still string)
+        //then it gets parsed to Int and devided by 10 to receiver 123 bpm
         return Integer.parseInt(str.replaceAll("\\D+","")) / 10;
 
     }

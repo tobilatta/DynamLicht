@@ -125,19 +125,25 @@ public class BleService extends Service {
             broadcastUpdate(ACTION_DATA_AVAILABLE, characteristic);
         }
     };
-//Broadcast-Variablen auslesen nachgucken!!
+
+
     private void broadcastUpdate(final String action) {
         final Intent intent = new Intent(action);
         sendBroadcast(intent);
     }
 
+    //BLE specific broadcast output
     private void broadcastUpdate(final String action,
                                  final BluetoothGattCharacteristic characteristic) {
         final Intent intent = new Intent(action);
+        //passing ble-device specific information
         intent.putExtra(EXTRA_SERVICE_UUID, characteristic.getService().getUuid().toString());
         intent.putExtra(EXTRA_CHARACTERISTIC_UUID, characteristic.getUuid().toString());
 
+        //if getSensor returns an address for the BLE device with the given UUID, sensors is not empty
+        //and the if statement will be executed: sensor data will be transformed to String and then returned
         final BleSensor<?> sensor = BleSensors.getSensor(characteristic.getService().getUuid().toString());
+
         if (sensor != null) {
             sensor.onCharacteristicChanged(characteristic);
             final String text = sensor.getDataString();

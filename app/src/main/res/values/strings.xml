@@ -50,5 +50,6 @@ Es wird bei Ablauf, bzw. im Code auf diese Strings verwiesen (siehe Beispiel And
     <string name="menu_stop">Stop</string>
     <string name="menu_ble">Bluetooth Setup</string>
     <string name="menu_modbus">Modbus Setup</string>
+    <string name="menu_onoff">Start/Stop</string>
 
 </resources>

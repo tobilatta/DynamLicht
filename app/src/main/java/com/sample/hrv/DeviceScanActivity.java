@@ -16,7 +16,6 @@
 
 package com.sample.hrv;
 
-//Hier ist ein Testkommentar für Paddy
 
 import android.app.Activity;
 import android.app.ListActivity;
@@ -27,6 +26,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
+import android.support.v4.app.NavUtils;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -77,6 +77,7 @@ public class DeviceScanActivity extends ListActivity {
     }
 
     @Override
+    //setting up the visual behaviour when buttons are pressed
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.gatt_scan, menu);
         if (scanner == null || !scanner.isScanning()) {
@@ -93,6 +94,7 @@ public class DeviceScanActivity extends ListActivity {
     }
 
     @Override
+    //setting up the visual behaviour when options are selected
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.menu_scan:
@@ -112,6 +114,11 @@ public class DeviceScanActivity extends ListActivity {
                     invalidateOptionsMenu();
                 }
                 break;
+
+            case android.R.id.home:
+                NavUtils.navigateUpFromSameTask(this);
+                return true;
+
         }
         return true;
     }
@@ -197,6 +204,8 @@ public class DeviceScanActivity extends ListActivity {
                 }
             };
 
+    //creates own thread for scanner,so that it runs besides the rest of application
+    //now its able to get set in sleep (if its not in own thread, the whole application/visualization would freeze)
     private static class Scanner extends Thread {
         private final BluetoothAdapter bluetoothAdapter;
         private final BluetoothAdapter.LeScanCallback mLeScanCallback;
@@ -227,6 +236,7 @@ public class DeviceScanActivity extends ListActivity {
         }
 
         @Override
+        //constant run of scan routine with 500ms pause
         public void run() {
             try {
                 while (true) {

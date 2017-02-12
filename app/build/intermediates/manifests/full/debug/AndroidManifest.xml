@@ -48,17 +48,22 @@ limitations under the License.
         android:theme="@android:style/Theme.Holo.Light" >
         <activity
             android:name="com.sample.hrv.setupActivity"
-            android:label="@string/app_name" >
+            android:label="@string/app_name"
+            android:launchMode="singleTop" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.sample.hrv.DeviceScanActivity" />
+        <activity
+            android:name="com.sample.hrv.DeviceScanActivity"
+            android:parentActivityName="com.sample.hrv.setupActivity" />
         <activity android:name="com.sample.hrv.DeviceServicesActivity" />
         <activity android:name="com.sample.hrv.demo.DemoHeartRateSensorActivity" />
-        <activity android:name="com.sample.hrv.setupModbus" />
+        <activity
+            android:name="com.sample.hrv.setupModbus"
+            android:parentActivityName="com.sample.hrv.setupActivity" />
 
         <service
             android:name="com.sample.hrv.BleService"

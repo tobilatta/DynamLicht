@@ -14,7 +14,9 @@ package com.sample.hrv;
         import android.util.Log;
         import android.view.View;
         import android.widget.Button;
+        import android.widget.CompoundButton;
         import android.widget.TextView;
+        import android.widget.ToggleButton;
 
         import com.sample.hrv.DeviceScanActivity;
         import com.sample.hrv.adapters.BleDevicesAdapter;
@@ -71,18 +73,20 @@ public class setupActivity extends /*ActionBar*/Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
+        //initial start of application
         super.onCreate(savedInstanceState);
-       // getSupportActionBar().setTitle(R.string.title_devices);
+        // getSupportActionBar().setTitle(R.string.title_devices);
 
         final Intent intent = getIntent();
-       // final Intent modbusServiceIntent = getIntent();
+        //setting up activity_setup-XML-File to current activity
         setContentView(R.layout.activity_setup);
 
-
+        //passing EXTRAS_DEVICE_ADDRESS to deviceAddress for access in different intent
         deviceAddress = intent.getStringExtra(EXTRAS_DEVICE_ADDRESS);
+        //linking the dataField variable to data_value for visual representation of value
         dataField = (TextView) findViewById(R.id.data_value);
 
-
+        //starting BleService
         final Intent gattServiceIntent = new Intent(this, BleService.class);
         bindService(gattServiceIntent, serviceConnection, BIND_AUTO_CREATE);
 
@@ -108,50 +112,54 @@ public class setupActivity extends /*ActionBar*/Activity {
         }
         );
 
-        //Start Button
-        final Button startBut = (Button) findViewById(R.id.but_menu_Start);
-        startBut.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
+        //when the Toggle "isChecked" , the if(...) is executed once
+        //ModbusService will be started
+        final ToggleButton hrlightOnOff = (ToggleButton) findViewById(R.id.but_menu_onoff);
+        hrlightOnOff.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if (isChecked) {
+                    // The toggle is enabled
+                    final Intent intent = new Intent(setupActivity.this, ModbusService.class);
+                    startService(intent);
+                }
+                else {
+                    // The toggle is disabled
+                    //if(intentModbus != NULL){
+                    final Intent intent = new Intent(setupActivity.this, ModbusService.class);
+                    stopService(intent);
 
-                final Intent intent = new Intent(setupActivity.this, ModbusService.class);
-                startService(intent);
+                    //}
+                }
+            }
+        });
+        //When this Button is toggled, it will send a ProcessImage with the int value 256 once to activate NightMode
+        //Controller-sided the 256 is the 9th bit which will be saved
+        final ToggleButton NightOnOff = (ToggleButton) findViewById(R.id.but_menu_nightOnOff);
+        NightOnOff.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if (isChecked) {
+                    // The toggle is enabled
+                    SimpleProcessImage spi = null;
+                    spi = new SimpleProcessImage();
+                    spi.addRegister(new SimpleRegister(256));
+                    ModbusCoupler.getReference().setProcessImage(spi);
+                    Log.i(TAG, "NightModeOn");
 
                 }
+        //the 10th bit only needs to be sended once aswell. Its also saved and leads to the deactivation
+        //of the night mode
+                else {
+                    // The toggle is disabled
+                    SimpleProcessImage spi = null;
+                    spi = new SimpleProcessImage();
+                    spi.addRegister(new SimpleRegister(512));
+                    ModbusCoupler.getReference().setProcessImage(spi);
+                    Log.i(TAG, "NightModeOff");
 
-        }
-        );
-
-        final Button nightModeOn = (Button) findViewById(R.id.but_menu_nightOn);
-        nightModeOn.setOnClickListener(new View.OnClickListener() {
-                                           @Override
-                                           public void onClick(View view) {
-
-                                               SimpleProcessImage spi = null;
-                                               spi = new SimpleProcessImage();
-                                               spi.addRegister(new SimpleRegister(256));
-                                               ModbusCoupler.getReference().setProcessImage(spi);
-
-
-                                           }
-                                       }
-        );
-
-        final Button nightModeOff = (Button) findViewById(R.id.but_menu_nightOff);
-        nightModeOff.setOnClickListener(new View.OnClickListener() {
-                                           @Override
-                                           public void onClick(View view) {
-
-                                               SimpleProcessImage spi = null;
-                                               spi = new SimpleProcessImage();
-                                               spi.addRegister(new SimpleRegister(512));
-                                               ModbusCoupler.getReference().setProcessImage(spi);
-
-
-                                           }
-                                       }
-        );
-
+                    //}
+                }
+            }
+        });
 
 
     }
@@ -160,16 +168,8 @@ public class setupActivity extends /*ActionBar*/Activity {
         super.onResume();
 
         heartRateField = (TextView) findViewById(R.id.heartrate_value);
-       ////////////////////////////////////FÜR BETRIEB WIEDER REINNEHMEN///////////////////////////////////////
+
         registerReceiver(gattUpdateReceiver, makeGattUpdateIntentFilter());
-        //final Intent intent = new Intent(this, ModbusService.class);
-        //this.startService(intent);
-        ///////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-
-
-
 
 
 
@@ -232,6 +232,7 @@ public class setupActivity extends /*ActionBar*/Activity {
     }
 
 }
+
 
 
 

@@ -59,7 +59,7 @@ public class DeviceServicesActivity extends Activity {
 
     public static final String EXTRAS_DEVICE_NAME = "DEVICE_NAME";
     public static final String EXTRAS_DEVICE_ADDRESS = "DEVICE_ADDRESS";
-    //public static String HEARTRATEV = "no value!!!";
+
 
     private TextView connectionState;
     private TextView dataField;
@@ -84,6 +84,7 @@ public class DeviceServicesActivity extends Activity {
     private final ServiceConnection serviceConnection = new ServiceConnection() {
 
         @Override
+        //setting up the service of connected device to bleService for further actions
         public void onServiceConnected(ComponentName componentName, IBinder service) {
             bleService = ((BleService.LocalBinder) service).getService();
             if (!bleService.initialize()) {
@@ -163,6 +164,7 @@ public class DeviceServicesActivity extends Activity {
                 }
             };
 
+    //behaviour when its on demoMode (was implemented from the beginning)
     private final BleServicesAdapter.OnServiceItemClickListener demoClickListener = new BleServicesAdapter.OnServiceItemClickListener() {
         @Override
         public void onDemoClick(BluetoothGattService service) {
@@ -223,6 +225,8 @@ public class DeviceServicesActivity extends Activity {
 		this.serviceListener = listener;
 	}
     @Override
+
+    //Linking the visuals to the code variables
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.gatt_services_characteristics);
@@ -258,12 +262,14 @@ public class DeviceServicesActivity extends Activity {
         getActionBar().setTitle(deviceName);
         getActionBar().setDisplayHomeAsUpEnabled(true);
 
+        //starting BleService
         final Intent gattServiceIntent = new Intent(this, BleService.class);
         bindService(gattServiceIntent, serviceConnection, BIND_AUTO_CREATE);
 
     }
 
     @Override
+    //reconnect on resume if bleService existed (from already existing connection)
     protected void onResume() {
         super.onResume();
         registerReceiver(gattUpdateReceiver, makeGattUpdateIntentFilter());
@@ -280,6 +286,7 @@ public class DeviceServicesActivity extends Activity {
     }
 
     @Override
+    //stopping and unbinding all receiver and services
     protected void onDestroy() {
         super.onDestroy();
         unregisterReceiver(gattUpdateReceiver);
@@ -325,11 +332,14 @@ public class DeviceServicesActivity extends Activity {
         });
     }
 
+    //important method for connection of java code and visual representation
+    //if connected Device is HRM, the given value will be shown in heartRateField
     public void displayData(String uuid, String data) {
         if (data != null) {
             if (uuid.equals(BleHeartRateSensor.getServiceUUIDString())) {
                 heartRateField.setText(data);
-                //HEARTRATEV = data;
+
+                //otherwise just in average dataField
             } else {
                 dataField.setText(data);
             }
