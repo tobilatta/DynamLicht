@@ -1,11 +1,11 @@
 DynLiCo  (Dynamic Light Control)
  ==============
  
- WAGO Light Controller via MODBUS combined with Bluetooth Heart rate sensing
+ WAGO Light Controller via MODBUS-TCP combined with Bluetooth Heart rate sensing
  
  This app searches for nearby BLE devices and connects to heart rate sensor service. 
  It shows heart rate (average pulse) and heart rate variability (beat-to-beat interval or RR data). 
- The app connects via MODBUS to a WAGO Home station and sends control commands, depending on the actual heart rate.
+ The app connects via MODBUS-TCP to a WAGO Home station and sends control commands, depending on the actual heart rate.
  Over 120bpm (green light for stress release) or under 120bpm (red light for stimulation and energizing).
  The station is used to control RGB-LED strips.
 
@@ -46,6 +46,9 @@ DynLiCo  (Dynamic Light Control)
  
  This project is built on the BLE-Heart-rate-variability-demo by oerjanti.
  https://github.com/oerjanti/BLE-Heart-rate-variability-demo.git
+ 
+ The jamod Java MODBUS implementation is used, aswell.
+ http://jamod.sourceforge.net/
  
  
 
